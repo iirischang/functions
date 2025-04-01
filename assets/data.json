@@ -1,0 +1,173 @@
+[
+  {
+    "name": "Work Sans",
+    "category": "sans-serif",
+    "usage": "commercial use",
+    "language": "eng",
+    "source": "Google Fonts",
+    "weight_option": "Thin, ExtraLight, Light, \nRegular, Medium, SemiBold, \nBold, ExtraBold, Black",
+    "url": "https://fonts.google.com/specimen/Work+Sans"
+  },
+  {
+    "name": "Libre Franklin",
+    "category": "sans-serif",
+    "usage": "commercial use",
+    "language": "eng",
+    "source": "Google Fonts",
+    "weight_option": "Thin, ExtraLight, Light, \nRegular, Medium, SemiBold, \nBold, ExtraBold, Black",
+    "url": "https://fonts.google.com/specimen/Libre+Franklin"
+  },
+  {
+    "name": "Rubik",
+    "category": "sans-serif",
+    "usage": "commercial use",
+    "language": "eng",
+    "source": "Google Fonts",
+    "weight_option": "Light, Regular, Medium, \nSemiBold, Bold, ExtraBold, \nBlack",
+    "url": "https://fonts.google.com/specimen/Rubik"
+  },
+  {
+    "name": "DM Sans",
+    "category": "sans-serif",
+    "usage": "commercial use",
+    "language": "eng",
+    "source": "Google Fonts",
+    "weight_option": "Thin, ExtraLight, Light, \nRegular, Medium, SemiBold, \nBold, ExtraBold, Black",
+    "url": "https://fonts.google.com/specimen/DM+Sans"
+  },
+  {
+    "name": "Mulish",
+    "category": "sans-serif",
+    "usage": "commercial use",
+    "language": "eng",
+    "source": "Google Fonts",
+    "weight_option": "Thin, ExtraLight, Light, \nRegular, Medium, SemiBold, \nBold, ExtraBold, Black",
+    "url": "https://fonts.google.com/specimen/Mulish"
+  },
+  {
+    "name": "Barlow",
+    "category": "sans-serif",
+    "usage": "commercial use",
+    "language": "eng",
+    "source": "Google Fonts",
+    "weight_option": "Thin, ExtraLight, Light, \nRegular, Medium, SemiBold, \nBold, ExtraBold, Black",
+    "url": "https://fonts.google.com/specimen/Barlow"
+  },
+  {
+    "name": "Karla",
+    "category": "sans-serif",
+    "usage": "commercial use",
+    "language": "eng",
+    "source": "Google Fonts",
+    "weight_option": "Thin, ExtraLight, Light, \nRegular, Medium, SemiBold, \nBold, ExtraBold, Black",
+    "url": "https://fonts.google.com/specimen/Karla"
+  },
+  {
+    "name": "Manrope",
+    "category": "sans-serif",
+    "usage": "commercial use",
+    "language": "eng",
+    "source": "Google Fonts",
+    "weight_option": "Thin, ExtraLight, Light, \nRegular, Medium, SemiBold, \nBold, ExtraBold, Black",
+    "url": "https://fonts.google.com/specimen/Manrope"
+  },
+  {
+    "name": "Chivo",
+    "category": "sans-serif",
+    "usage": "commercial use",
+    "language": "eng",
+    "source": "Google Fonts",
+    "weight_option": "Thin, ExtraLight, Light, \nRegular, Medium, SemiBold, \nBold, ExtraBold, Black",
+    "url": "https://fonts.google.com/specimen/Chivo"
+  },
+  {
+    "name": "Playfair Display",
+    "category": "Serif",
+    "usage": "commercial use",
+    "language": "eng",
+    "source": "Google Fonts",
+    "weight_option": "Regular, Medium, SemiBold, \nBold, ExtraBold, Black",
+    "url": "https://fonts.google.com/specimen/Playfair+Display"
+  },
+  {
+    "name": "EB Garamond",
+    "category": "Serif",
+    "usage": "commercial use",
+    "language": "eng",
+    "source": "Google Fonts",
+    "weight_option": "Regular, Medium, SemiBold, \nBold, ExtraBold",
+    "url": "https://fonts.google.com/specimen/EB+Garamond?"
+  },
+  {
+    "name": "Crimson Text",
+    "category": "Serif",
+    "usage": "commercial use",
+    "language": "eng",
+    "source": "Google Fonts",
+    "weight_option": "Regular,SemiBold, Bold",
+    "url": "https://fonts.google.com/specimen/Crimson+Text"
+  },
+  {
+    "name": "Gilda Display",
+    "category": "Serif",
+    "usage": "commercial use",
+    "language": "eng",
+    "source": "Google Fonts",
+    "weight_option": "Regular",
+    "url": "https://fonts.google.com/specimen/Gilda+Display"
+  },
+  {
+    "name": "Momochidori",
+    "category": "Serif",
+    "usage": "commercial use",
+    "language": "jap",
+    "source": "Adobe Fonts",
+    "weight_option": "ExtraLight, Regular, Medium, \nSemiBold, Bold, Heavy",
+    "url": "https://fonts.adobe.com/fonts/momochidori"
+  },
+  {
+    "name": "Kosugi Maru",
+    "category": "sans-serif",
+    "usage": "commercial use",
+    "language": "jap",
+    "source": "Google Fonts, Adobe Fonts",
+    "weight_option": "Regular",
+    "url": "https://fonts.adobe.com/fonts/kosugi-maru"
+  },
+  {
+    "name": "MizoletBokutoh",
+    "category": "sans-serif",
+    "usage": "commercial use",
+    "language": "jap",
+    "source": "Adobe Fonts",
+    "weight_option": "Regular",
+    "url": "https://fonts.adobe.com/fonts/mizoletbokutoh"
+  },
+  {
+    "name": "Chocolate Classical Sans",
+    "category": "sans-serif",
+    "usage": "commercial use",
+    "language": "man",
+    "source": "Google Fonts, Adobe Fonts",
+    "weight_option": "Regular",
+    "url": "https://fonts.adobe.com/fonts/chocolate-classical-sans"
+  },
+  {
+    "name": "Noto Sans TC",
+    "category": "sans-serif",
+    "usage": "commercial use",
+    "language": "man",
+    "source": "Google Fonts, Adobe Fonts",
+    "weight_option": "Thin, ExtraLight, Light, \nRegular, Medium, SemiBold, \nBold, ExtraBold, Black",
+    "url": "https://fonts.google.com/noto/specimen/Noto+Sans+TC"
+  },
+  {
+    "name": "AR UDJingXiHeiB5",
+    "category": "sans-serif",
+    "usage": "commercial use",
+    "language": "man",
+    "source": "Adobe Fonts",
+    "weight_option": "Regular",
+    "url": "https://fonts.adobe.com/fonts/ar-udjingxiheib5pro"
+  }
+]
