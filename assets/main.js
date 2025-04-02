@@ -3,9 +3,20 @@ let renderItems = (data) => {
 	containerEl.innerHTML = '';
 
 	data.forEach(item => {
+		let fontFamily;
+		if (item['name'] === 'Work Sans') {
+			fontFamily = 'Work Sans, san-serif';
+		} else if (item['name'] === 'Libre Franklin') {
+			fontFamily = 'Libre Franklin, san-serif';
+		} else if (item['name'] === 'Rubik') {
+			fontFamily = 'Rubik, san-serif';
+		} else {
+			fontFamily = 'sans-serif'
+		}
+
 		let itemHtml = `
 		<li>
-			<h2>${item['name']}</h2>
+			<h2 style="font-family: ${fontFamily};">${item['name']}</h2>
 			<p>${item['category']}</p>
 			<p>${item['usage']}</p>
 			<p>${item['language']}</p>

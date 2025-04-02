@@ -1,5 +1,6 @@
 body {
 	margin: 100px;
+	background-color:rgb(233, 233, 233);
 }
 
 h1 {
@@ -8,7 +9,7 @@ h1 {
 }
 
 h2 {
-	font-size: 25px;
+	font-size: 30px;
 }
 
 p {
