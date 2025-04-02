@@ -9,3 +9,16 @@ h2 {
 p {
 	font-size: 15px;
 }
+
+label {
+	font-size: 20px;
+}
+
+#category-filter {
+	font-size: 20px;
+	background-color: dimgray;
+	color: black;
+	text-align: center;
+	margin-bottom: 20px;
+}
+

@@ -19,7 +19,7 @@ let renderItems = (data) => {
 };
 
 let filterFonts = (data) => {
-	let selectedCategory = document.querySelector('category-filter').value;
+	let selectedCategory = document.querySelector('#category-filter').value;
 
 	let filteredData = data.filter(item => {
 		return selectedCategory === 'all' || item.category === selectedCategory;

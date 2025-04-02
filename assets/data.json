@@ -82,7 +82,7 @@
   },
   {
     "name": "Playfair Display",
-    "category": "Serif",
+    "category": "serif",
     "usage": "commercial use",
     "language": "eng",
     "source": "Google Fonts",
@@ -91,7 +91,7 @@
   },
   {
     "name": "EB Garamond",
-    "category": "Serif",
+    "category": "serif",
     "usage": "commercial use",
     "language": "eng",
     "source": "Google Fonts",
@@ -100,7 +100,7 @@
   },
   {
     "name": "Crimson Text",
-    "category": "Serif",
+    "category": "serif",
     "usage": "commercial use",
     "language": "eng",
     "source": "Google Fonts",
@@ -109,7 +109,7 @@
   },
   {
     "name": "Gilda Display",
-    "category": "Serif",
+    "category": "serif",
     "usage": "commercial use",
     "language": "eng",
     "source": "Google Fonts",
@@ -118,7 +118,7 @@
   },
   {
     "name": "Momochidori",
-    "category": "Serif",
+    "category": "serif",
     "usage": "commercial use",
     "language": "jap",
     "source": "Adobe Fonts",
