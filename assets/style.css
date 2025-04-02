@@ -1,5 +1,6 @@
 h1 {
 	font-size: 50px;
+	margin-bottom: 30px;
 }
 
 h2 {
@@ -15,10 +16,21 @@ label {
 }
 
 #category-filter {
+	width: 150;
+	height: 30px;
 	font-size: 20px;
-	background-color: dimgray;
+	background-color:lightslategray;
 	color: black;
 	text-align: center;
 	margin-bottom: 20px;
 }
 
+#usage-filter {
+	width: 200px;
+	height: 30px;
+	font-size: 20px;
+	background-color:aquamarine;
+	color: black;
+	text-align: center;
+	margin-bottom: 20px;
+}

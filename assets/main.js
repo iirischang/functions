@@ -20,13 +20,15 @@ let renderItems = (data) => {
 
 let filterFonts = (data) => {
 	let selectedCategory = document.querySelector('#category-filter').value;
+	let selectedUsage = document.querySelector('#usage-filter').value;
 
 	let filteredData = data.filter(item => {
-		return selectedCategory === 'all' || item.category === selectedCategory;
+		return (selectedCategory === 'all' || item.category === selectedCategory) &&
+		(selectedUsage === 'all' || item.usage === selectedUsage);
 	});
 
 	renderItems(filteredData);
-}
+};
 
 
 
@@ -37,6 +39,9 @@ fetch('assets/data.json')
 		// And passes the data to the function, above!
 
 		document.querySelector('#category-filter').addEventListener('change', () => {
+			filterFonts(data);
+		});
+		document.querySelector('#usage-filter').addEventListener('change', () => {
 			filterFonts(data);
 		});
 	});
