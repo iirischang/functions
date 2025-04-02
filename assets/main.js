@@ -32,6 +32,12 @@ let renderItems = (data) => {
 			fontFamily = 'Gilda Display, san-serif';
 		} else if (item['name'] === 'Kosugi Maru') {
 			fontFamily = 'Kosugi Maru, san-serif';
+		} else if (item['name'] === '思源黑體') {
+			fontFamily = 'Noto Sans TC, san-serif';
+		} else if (item['name'] === 'ももちどり') {
+			fontFamily = 'Momochidori, san-serif';
+		} else if (item['name'] === 'こすぎ まる') {
+			fontFamily = 'Kosugi Maru, san-serif';
 		} else {
 			fontFamily = 'sans-serif'
 		}
