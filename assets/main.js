@@ -22,11 +22,13 @@ let filterFonts = (data) => {
 	let selectedCategory = document.querySelector('#category-filter').value;
 	let selectedUsage = document.querySelector('#usage-filter').value;
 	let selectedLanguage = document.querySelector('#language-filter').value;
+	let selectedSource = document.querySelector('#source-filter').value;
 
 	let filteredData = data.filter(item => {
 		return (selectedCategory === 'all' || item.category === selectedCategory) &&
 		(selectedUsage === 'all' || item.usage === selectedUsage) && 
-		(selectedLanguage === 'all' || item.language === selectedLanguage);
+		(selectedLanguage === 'all' || item.language === selectedLanguage) && 
+		(selectedSource === 'all' || item.source === selectedSource);
 	});
 
 	renderItems(filteredData);
@@ -47,6 +49,9 @@ fetch('assets/data.json')
 			filterFonts(data);
 		});
 		document.querySelector('#language-filter').addEventListener('change', () => {
+			filterFonts(data);
+		});
+		document.querySelector('#source-filter').addEventListener('change', () => {
 			filterFonts(data);
 		});
 	});

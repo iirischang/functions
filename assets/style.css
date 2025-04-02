@@ -1,5 +1,5 @@
 body {
-	margin: 150px;
+	margin: 100px;
 }
 
 h1 {
@@ -20,7 +20,7 @@ label {
 }
 
 #category-filter {
-	width: 150;
+	width: 170;
 	height: 30px;
 	font-size: 20px;
 	background-color:khaki;
@@ -30,7 +30,7 @@ label {
 }
 
 #usage-filter {
-	width: 200px;
+	width: 170px;
 	height: 30px;
 	font-size: 20px;
 	background-color:darkseagreen;
@@ -40,10 +40,20 @@ label {
 }
 
 #language-filter {
-	width: 200px;
+	width: 170px;
 	height: 30px;
 	font-size: 20px;
 	background-color:darksalmon;
+	color: black;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#source-filter {
+	width: 170px;
+	height: 30px;
+	font-size: 20px;
+	background-color:rgb(90, 153, 153);
 	color: black;
 	text-align: center;
 	margin-bottom: 20px;
