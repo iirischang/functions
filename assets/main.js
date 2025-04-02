@@ -10,6 +10,28 @@ let renderItems = (data) => {
 			fontFamily = 'Libre Franklin, san-serif';
 		} else if (item['name'] === 'Rubik') {
 			fontFamily = 'Rubik, san-serif';
+		} else if (item['name'] === 'DM Sans') {
+			fontFamily = 'DM Sans, san-serif';
+		} else if (item['name'] === 'Mulish') {
+			fontFamily = 'Mulish, san-serif';
+		} else if (item['name'] === 'Barlow') {
+			fontFamily = 'Barlow, san-serif';
+		} else if (item['name'] === 'Karla') {
+			fontFamily = 'Karla, san-serif';
+		} else if (item['name'] === 'Manrope') {
+			fontFamily = 'Manrope, san-serif';
+		} else if (item['name'] === 'Chivo') {
+			fontFamily = 'Chivo, san-serif';
+		} else if (item['name'] === 'Playfair Display') {
+			fontFamily = 'Playfair Display, san-serif';
+		} else if (item['name'] === 'EB Garamond') {
+			fontFamily = 'EB Garamond, san-serif';
+		} else if (item['name'] === 'Crimson Text') {
+			fontFamily = 'Crimson Text, san-serif';
+		} else if (item['name'] === 'Gilda Display') {
+			fontFamily = 'Gilda Display, san-serif';
+		} else if (item['name'] === 'Kosugi Maru') {
+			fontFamily = 'Kosugi Maru, san-serif';
 		} else {
 			fontFamily = 'sans-serif'
 		}
