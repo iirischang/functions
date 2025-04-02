@@ -1,3 +1,7 @@
+body {
+	margin: 150px;
+}
+
 h1 {
 	font-size: 50px;
 	margin-bottom: 30px;
@@ -19,7 +23,7 @@ label {
 	width: 150;
 	height: 30px;
 	font-size: 20px;
-	background-color:lightslategray;
+	background-color:khaki;
 	color: black;
 	text-align: center;
 	margin-bottom: 20px;
@@ -29,8 +33,28 @@ label {
 	width: 200px;
 	height: 30px;
 	font-size: 20px;
-	background-color:aquamarine;
+	background-color:darkseagreen;
 	color: black;
 	text-align: center;
 	margin-bottom: 20px;
+}
+
+#language-filter {
+	width: 200px;
+	height: 30px;
+	font-size: 20px;
+	background-color:darksalmon;
+	color: black;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+a {
+	font-size: 20px;
+	font-weight: 500;
+}
+
+li {
+	margin-top: 10px;
+	margin-bottom: 30px;
 }
