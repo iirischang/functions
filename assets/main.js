@@ -1,5 +1,6 @@
 let renderItems = (data) => {
-	let containerEl = document.querySelector('#font-list')
+	let containerEl = document.querySelector('#font-list');
+	containerEl.innerHTML = '';
 
 	data.forEach(item => {
 		let itemHtml = `
@@ -10,19 +11,32 @@ let renderItems = (data) => {
 			<p>${item['language']}</p>
 			<p>${item['source']}</p>
 			<p>${item['weight_option']}</p>
-			<p>${item['url']}</p>
+			<p><a href="${item['url']}" target="_blank">Font Link</a></p>
 		</li>
-		`
-		containerEl.insertAdjacentHTML('beforeend', itemHtml)
-	})
-}
+		`;
+		containerEl.insertAdjacentHTML('beforeend', itemHtml);
+	});
+};
 
+let filterFonts = (data) => {
+	let selectedCategory = document.querySelector('category-filter').value;
+
+	let filteredData = data.filter(item => {
+		return selectedCategory === 'all' || item.category === selectedCategory;
+	});
+
+	renderItems(filteredData);
+}
 
 
 
 fetch('assets/data.json')
 .then(response => response.json())
 	.then(data => {
+		renderItems(data);
 		// And passes the data to the function, above!
-		renderItems(data)
-	})
+
+		document.querySelector('#category-filter').addEventListener('change', () => {
+			filterFonts(data);
+		});
+	});
