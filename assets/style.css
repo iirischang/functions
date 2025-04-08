@@ -84,8 +84,87 @@ li {
 }
 
 
+#muti-step-form-container {
+	margin-top: 20px;
+}
 
+.text-center {
+	text-align: center;
+}
 
+.mx-auto {
+	margin-left: auto;
+	margin-right: auto;
+}
 
+.pl-0 {
+	padding-left: 0;
+}
 
+.button {
+	padding: 20px 30px;
+	background-color: white;
+	color: black;
+	border-radius: 5px;
+	cursor: pointer;
+}
 
+.submit-btn {
+	background-color: white;
+	color: black;
+}
+
+.mt-3 {
+	margin-top: 20px;
+}
+
+.d-none {
+	display: none;
+}
+
+.form-step {
+	color: black;
+	padding: 10px;
+}
+
+.font-normal {
+	font-weight: normal;
+}
+
+ul.font-stepper {
+	counter-reset: section;
+	margin-bottom: 20px;
+}
+
+ul.font-stepper  .form-stepper-circle{
+	position: relative;
+}
+
+ul.form-stepper .form-stepper-circle span {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateY(-50%) translateX(-50%);
+}
+
+.form-stepper-horizontal {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+}
+
+.options-buttons {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+
+.option-btn {
+	padding: 10px;
+	background-color: white;
+}
+
+.option-btn.selected {
+	background-color: black;
+	color: white;
+}

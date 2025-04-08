@@ -150,6 +150,46 @@ fetch('assets/data.json')
 
 		// call-function
 		navigateToFormStep(stepNumber);
-		
+
 		});
 	});
+
+	document.addEventListener('DOMContentLoaded', function() {
+		setupOptionButtons();
+		document.getElementById('userAccountSetupForm').addEventListener('submit', function(e) {
+			e.preventDefault();
+
+			const topic = document.getElementById('selected-topic').value;
+			const brand = document.getElementById('selected-brand').value;
+			const usage = document.getElementById('selected-usage').value;
+
+		});
+		document.getElementById('result-container').style.display = 'block';
+	});
+
+
+	function setupOptionButtons() {
+		const optionButtons = document.querySelectorAll("#step1-options .option-btn");
+		const nextButton = document.getElementById("step1-next");
+		const hiddenInput = document.getElementById("selected-topic");
+
+		let selectedValues = [];
+
+		optionButtons.forEach(button => {
+			button.addEventListener("click", () => {
+
+				button.classList.toggle("selected");
+				const value = button.getAttribute("data-value");
+
+				if (selectedValues.includes(value)) {
+					selectedValues = selectedValues.filter(v => v !== value);
+				} else {
+					selectedValues.push(value);
+				}
+
+				hiddenInput.value = selectedValues.join(", ");
+
+				nextButton.disabled = selectedValues.length === 0;
+			});
+		});
+}
