@@ -94,3 +94,62 @@ fetch('assets/data.json')
 			filterFonts(data);
 		});
 	});
+
+
+	/* I wanted to create Multistep Form Functional */
+	/* I found this tutorial: https://levelup.gitconnected.com/create-a-multi-step-form-using-html-css-and-javascript-30aca5c062fc */
+	/* This script defines a function to navigate between form steps. */
+	
+	// form
+	const navigateToFormStep = (stepNumber) => {
+		// hide all steps
+		document.querySelectorAll(".form-step").forEach((formStepElement) => {
+			formStepElement.classList.add("d-none");
+		});
+
+		// mark-steps-as-unfinished
+		document.querySelectorAll(".form-stepper-list").forEach((formStepHeader) => {
+			formStepHeader.classList.add("form-stepper-unfinished");
+			formStepHeader.classList.remove("form-stepper-active", "form-stepper-completed")
+		});
+
+		// show-current-step
+		document.querySelector("#step-" + stepNumber).classList.remove("d-none");
+		
+		// select-form-step
+		const formStepCircle = document.querySelector('li[step="' + stepNumber + '"]');
+
+		// mark-as-active
+		formStepCircle.classList.remove("form-stepper-unfinished", "form-stepper-completed");
+		formStepCircle.classList.add("form-stepper-active");
+
+		// loop-through-each-step
+		for (let index = 0; index < stepNumber; index++) {
+
+			// select-form-step
+			const formStepCircle = document.querySelector('li[step="' + index + '"]');
+
+			// check
+			if (formStepCircle) {
+
+				// mark-as-completed
+				formStepCircle.classList.remove("form-stepper-unfinished", "form-stepper-active");
+				formStepCircle.classList.add("form-stepper-completed");
+			}
+		}
+	};
+
+	// select-buttons
+	document.querySelectorAll(".btn-navigate-form-step").forEach((formNavigationBtn) => {
+
+		// add-click-event
+		formNavigationBtn.addEventListener("click", () => {
+
+		// get-the-value
+		const stepNumber = parseInt(formNavigationBtn.getAttribute("step_number"));
+
+		// call-function
+		navigateToFormStep(stepNumber);
+		
+		});
+	});

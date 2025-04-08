@@ -37,40 +37,71 @@
 
 	<body>
 	<h1>Perfect Font</h1>
+		<!-- <h2>If your project was a planet, which galaxy would it call home?</h2> -->
+		<div id="mulit-step-form-container">
+			<!-- steps -->
+			 <ul class="form-stepper form-stepper-horizontal text-center mx-auto pl-0">
+			<!-- step-1 -->
+			<li class="form-stepper-active text-center form-stepper-list" step="1">
+				<a class="mx-2">
+					<span class="form-stepper-circle">
+					</span>First</span>
+					</span>
+					<div class="label">Topic</div>
+				</a>
+			 </ul>
+
+		<!-- form content -->
+		<form id="userAccountSetupForm" name="userAccountSetupForm" enctype="multipart/form-data" method="POST">
+			<!-- step-1-content -->
+			 <section id="step-1" class="form-step">
+				<h2 class="font-normal">If your project was a planet, which galaxy would it call home?</h2>
+			<!-- step-1-input -->
+				<div class="mt-3">
+					Pick the topic you are working on
+				</div>
+				<div class="mt-3">
+					<button class="button btn-navigate-form-step" type="button" step_number="2">Health & Wellness</button>
+					<button class="button btn-navigate-form-step" type="button" step_number="2">Food & Flavor</button>
+				</div>
+			 </section>
+		</div>
+
+
 	<!-- category -->
-		<label for="category-filter">Category</label>
+		<!-- <label for="category-filter">Category</label>
 		<select id="category-filter">
 			<option value="all">All</option>
 			<option value="serif">Serif</option>
 			<option value="sans-serif">Sans-serif</option>
-		</select>
+		</select> -->
 
 	<!-- usage -->
-		<label for="usage-filter">Usage</label>
+		<!-- <label for="usage-filter">Usage</label>
 		<select id="usage-filter">
 			<option value="all">All</option>
 			<option value="commercial use">commercial use</option>
 			<option value="personal use">personal use</option>
-		</select>
+		</select> -->
 
 	<!-- language -->
-	<label for="language-filter">Language</label>
+	<!-- <label for="language-filter">Language</label>
 	<select id="language-filter">
 		<option value="all">All</option>
 		<option value="eng">English</option>
 		<option value="jap">Japanese</option>
 		<option value="man">Mandarin</option>
-	</select>
+	</select> -->
 
 	<!-- source -->
-	<label for="source-filter">Source</label>
+	<!-- <label for="source-filter">Source</label>
 	<select id="source-filter">
 		<option value="all">All</option>
 		<option value="Google Fonts">Google Fonts</option>
 		<option value="Adobe Fonts">Adobe Fonts</option>
-	</select>
+	</select> -->
 
 
-	<ul id="font-list"></ul>
+	<!-- <ul id="font-list"></ul> -->
 	</body>
 </html>
