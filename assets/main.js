@@ -100,6 +100,7 @@ let filterFonts = (data) => {
 	/* I found this tutorial: https://levelup.gitconnected.com/create-a-multi-step-form-using-html-css-and-javascript-30aca5c062fc */
 	/* This script defines a function to navigate between form steps. */
 	
+	let formSubmitted = false;
 	// form
 	const navigateToFormStep = (stepNumber) => {
 		// hide all steps
@@ -137,6 +138,15 @@ let filterFonts = (data) => {
 				formStepCircle.classList.add("form-stepper-completed");
 			}
 		}
+
+			// hide list at other step
+			if (formSubmitted && stepNumber < 3) {
+				document.getElementById('results-container').style.display = 'none';
+			} else if (formSubmitted && stepNumber === 3) {
+				document.getElementById('results-container').style.display = 'block';
+			}
+			
+			};
 	};
 
 	// select-buttons
@@ -154,7 +164,6 @@ let filterFonts = (data) => {
 		});
 	});
 
-	// document.addEventListener('DOMContentLoaded', function() {
 
 	fetch('assets/data.json')
 		.then(response => response.json())
@@ -172,6 +181,7 @@ let filterFonts = (data) => {
 
 		document.getElementById('userAccountSetupForm').addEventListener('submit', function(e) {
 			e.preventDefault();
+			formSubmitted = true;
 
 			const topic = document.getElementById('selected-topic').value;
 			const brand = document.getElementById('selected-brand').value;
@@ -182,9 +192,30 @@ let filterFonts = (data) => {
 			renderItems(data);
 
 		});
+
+		// restart button
+		document.getElementById('restart-btn').addEventListener('click', function() {
+		
+		// restart form
+		document.getElementById('userAccountSetupForm').reset();
+		formSubmitted = false;
+
+		// delete all
+		document.querySelectorAll('.option-btn').forEach(btn => {
+			btn.classList.remove('selected');
+		});
+		document.getElementById('step1-next').disabled = true;
+		document.getElementById('step2-next').disabled = true;
+		document.getElementById('step3-btn').disabled = true;
+
+		document.getElementById('results-container').style.display = 'none';
+
+		navigateToFormStep(1);
+		});
 	});
 
 
+	// steps
 	function setupStepOptions(optionsId, nextBtnId, hiddenInputId) {
 		const optionButtons = document.querySelectorAll(`#${optionsId} .option-btn`);
 		const nextButton = document.getElementById(nextBtnId);
