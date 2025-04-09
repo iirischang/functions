@@ -147,7 +147,6 @@ let filterFonts = (data) => {
 			}
 			
 			};
-	};
 
 	// select-buttons
 	document.querySelectorAll(".btn-navigate-form-step").forEach((formNavigationBtn) => {
