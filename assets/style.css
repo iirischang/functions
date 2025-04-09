@@ -14,6 +14,7 @@ h1 {
 }
 
 h2 {
+	margin-bottom: 30px;
 	font-size: 40px;
 	text-align: left;
 	text-align: center;
@@ -195,6 +196,69 @@ ul.form-stepper .form-stepper-circle span {
 	border-radius: 40px;
 	margin: 5px;
 	font-size: 25px;
+}
+
+.option-btn:hover {
+	background-color: rgb(137, 137, 137);
+}
+
+.option-btn[data-value="MUJI"]:hover {
+	background-color: #7f0019;
+	color: white;
+	font-family: "helvetica-neue-lt-pro-cond", sans-serif;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 25px;
+}
+
+.option-btn[data-value="duolingo"]:hover {
+	background-color: white;
+	color: #58cc02;
+	font-family: "Feather Bold";
+	font-size: 23px;
+}
+
+.option-btn[data-value="IBM"]:hover {
+	background-color: #007bff;
+	color: white;
+	font-family: "IBM Plex Sans";
+	font-size: 23px;
+	font-style: bold;
+	font-weight: 700;
+}
+
+.option-btn[data-value="Dior"]:hover {
+	background-color:white;
+	color: black;
+	font-family: "ltc-nicholas-cochin-pro", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 28px;
+}
+
+.option-btn[data-value="Herseys"]:hover {
+	background-color:#3E000F;
+	color: #a8a9ac;
+	font-family: 'PF Mellon';
+	text-transform: uppercase;
+	font-size: 30px;
+}
+
+@font-face {
+	font-family: 'PF Mellon';
+	src: url('../fonts/PFMellon-Medium-subset.otf') format('truetype');
+}
+
+  .option-btn[data-value="Disney"]:hover {
+	background-color:white;
+	color: #4a62d8;
+	font-family: 'Disney';
+	font-size: 30px;
+}
+
+  @font-face {
+	font-family: 'Disney';
+	src: url('../fonts/waltograph42.otf') format('truetype');
 }
 
 .option-btn.selected {

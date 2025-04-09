@@ -41,6 +41,40 @@
 			<link rel="preconnect" href="https://fonts.googleapis.com">
 			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 			<link href="https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap" rel="stylesheet">
+
+			<!-- brand-fonts -->
+
+			<!-- muji -->
+			<script>
+				(function(d) {
+				  var config = {
+					kitId: 'iya3loo',
+					scriptTimeout: 3000,
+					async: true
+				  },
+				  h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+				})(document);
+			  </script>
+			
+			<!-- duolingo -->
+			<link href="https://db.onlinewebfonts.com/c/14936bb7a4b6575fd2eee80a3ab52cc2?family=Feather+Bold" rel="stylesheet">
+
+			<!-- IBM -->
+			<link rel="preconnect" href="https://fonts.googleapis.com">
+			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+			<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+			<!-- dior -->
+			<script>
+				(function(d) {
+				  var config = {
+					kitId: 'iya3loo',
+					scriptTimeout: 3000,
+					async: true
+				  },
+				  h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+				})(document);
+			  </script>
 	</head>
 
 	<body>
@@ -82,13 +116,16 @@
 		<form id="userAccountSetupForm" name="userAccountSetupForm" enctype="multipart/form-data" method="POST">
 			<!-- step-1-content -->
 			 <section id="step-1" class="form-step">
-				<h2 class="font-normal">If your project was a planet, which galaxy would it call home?</h2>
+				<h2 class="font-normal">If your project is a planet, which galaxy would it call home?</h2>
 			<!-- step-1-input -->
 				<div class="mt-3">
 					<!-- <p>Pick the topic you are working on</p> -->
 					<div class="option-buttons" id="step1-options">
 						<button type="button" class="option-btn" data-value="Health">Health</button>
 						<button type="button" class="option-btn" data-value="Food">Food</button>
+						<button type="button" class="option-btn" data-value="Education">Education</button>
+						<button type="button" class="option-btn" data-value="Finance">Finance</button>
+						<button type="button" class="option-btn" data-value="Tech">Tech</button>
 					</div>
 					<input type="hidden" id="selected-topic" name="selected-topic" value="">
 				</div>
@@ -99,13 +136,17 @@
 
 			 <!-- step-2-content-default-hidden -->
 			<section id="step-2" class="form-step d-none">
-				<h2 class="font-normal">If your project was at a party, which brand would it hang out with?</h2>
+				<h2 class="font-normal">If your project is at a party, which brand would it hang out with?</h2>
 			<!-- step-2-input -->
 				<div class="mt-3">
 					<!-- <p>Pick the brand that is close with you</p> -->
 					<div class="option-buttons" id="step2-options">
 						<button type="button" class="option-btn" data-value="MUJI">MUJI</button>
 						<button type="button" class="option-btn" data-value="duolingo">duolingo</button>
+						<button type="button" class="option-btn" data-value="IBM">IBM</button>
+						<button type="button" class="option-btn" data-value="Dior">Dior</button>
+						<button type="button" class="option-btn" data-value="Herseys">Hersey's</button>
+						<button type="button" class="option-btn" data-value="Disney">Disney</button>
 					</div>
 					<input type="hidden" id="selected-brand" name="selected-brand" value="">
 				</div>
@@ -124,6 +165,9 @@
 					<div class="option-buttons" id="step3-options">
 						<button type="button" class="option-btn" data-value="Poster">Poster</button>
 						<button type="button" class="option-btn" data-value="Website">Website</button>
+						<button type="button" class="option-btn" data-value="Packaging">Packaging</button>
+						<button type="button" class="option-btn" data-value="Magazine">Magazine</button>
+						<button type="button" class="option-btn" data-value="Exhibition">Exhibition</button>
 					</div>
 					<input type="hidden" id="selected-usage" name="selected-usage" value="">
 				</div>
