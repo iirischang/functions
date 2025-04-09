@@ -44,7 +44,7 @@ let renderItems = (data) => {
 
 		let itemHtml = `
 		<li>
-			<h2 style="font-family: ${fontFamily};">${item['name']}</h2>
+			<h3 style="font-family: ${fontFamily};">${item['name']}</h3>
 			<p>${item['category']}</p>
 			<p>${item['usage']}</p>
 			<p>${item['language']}</p>
