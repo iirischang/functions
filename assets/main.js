@@ -75,25 +75,25 @@ let filterFonts = (data) => {
 
 
 
-fetch('assets/data.json')
-.then(response => response.json())
-	.then(data => {
-		renderItems(data);
-		// And passes the data to the function, above!
+// fetch('assets/data.json')
+// .then(response => response.json())
+// 	.then(data => {
+// 		renderItems(data);
+// 		// And passes the data to the function, above!
 
-		document.querySelector('#category-filter').addEventListener('change', () => {
-			filterFonts(data);
-		});
-		document.querySelector('#usage-filter').addEventListener('change', () => {
-			filterFonts(data);
-		});
-		document.querySelector('#language-filter').addEventListener('change', () => {
-			filterFonts(data);
-		});
-		document.querySelector('#source-filter').addEventListener('change', () => {
-			filterFonts(data);
-		});
-	});
+// 		document.querySelector('#category-filter').addEventListener('change', () => {
+// 			filterFonts(data);
+// 		});
+// 		document.querySelector('#usage-filter').addEventListener('change', () => {
+// 			filterFonts(data);
+// 		});
+// 		document.querySelector('#language-filter').addEventListener('change', () => {
+// 			filterFonts(data);
+// 		});
+// 		document.querySelector('#source-filter').addEventListener('change', () => {
+// 			filterFonts(data);
+// 		});
+// 	});
 
 
 	/* I wanted to create Multistep Form Functional */
@@ -154,8 +154,22 @@ fetch('assets/data.json')
 		});
 	});
 
-	document.addEventListener('DOMContentLoaded', function() {
-		setupOptionButtons();
+	// document.addEventListener('DOMContentLoaded', function() {
+
+	fetch('assets/data.json')
+		.then(response => response.json())
+		.then(data => {	
+		setupStepOptions('step1-options', 'step1-next', 'selected-topic');
+		setupStepOptions('step2-options', 'step2-next', 'selected-brand');
+		setupStepOptions('step3-options', 'step3-btn', 'selected-usage');
+
+		document.querySelectorAll(".btn-navigate-form-step").forEach((formNavigationBtn) => {
+			formNavigationBtn.addEventListener("click", () => {
+				const stepNumber = parseInt(formNavigationBtn.getAttribute("step_number"));
+				navigateToFormStep(stepNumber);
+			});
+		});
+
 		document.getElementById('userAccountSetupForm').addEventListener('submit', function(e) {
 			e.preventDefault();
 
@@ -163,33 +177,32 @@ fetch('assets/data.json')
 			const brand = document.getElementById('selected-brand').value;
 			const usage = document.getElementById('selected-usage').value;
 
+			document.getElementById('results-container').style.display = 'block';
+
+			renderItems(data);
+
 		});
-		document.getElementById('result-container').style.display = 'block';
 	});
 
 
-	function setupOptionButtons() {
-		const optionButtons = document.querySelectorAll("#step1-options .option-btn");
-		const nextButton = document.getElementById("step1-next");
-		const hiddenInput = document.getElementById("selected-topic");
+	function setupStepOptions(optionsId, nextBtnId, hiddenInputId) {
+		const optionButtons = document.querySelectorAll(`#${optionsId} .option-btn`);
+		const nextButton = document.getElementById(nextBtnId);
 
 		let selectedValues = [];
 
 		optionButtons.forEach(button => {
 			button.addEventListener("click", () => {
-
 				button.classList.toggle("selected");
 				const value = button.getAttribute("data-value");
 
-				if (selectedValues.includes(value)) {
+				if(selectedValues.includes(value)) {
 					selectedValues = selectedValues.filter(v => v !== value);
 				} else {
 					selectedValues.push(value);
 				}
-
-				hiddenInput.value = selectedValues.join(", ");
-
+				document.getElementById(hiddenInputId).value = selectedValues.join(", ")
 				nextButton.disabled = selectedValues.length === 0;
 			});
 		});
-}
+	}
