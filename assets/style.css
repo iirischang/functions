@@ -48,46 +48,6 @@ label {
 	font-size: 20px;
 }
 
-/* #category-filter {
-	width: 170;
-	height: 30px;
-	font-size: 20px;
-	background-color:khaki;
-	color: black;
-	text-align: center;
-	margin-bottom: 20px;
-}
-
-#usage-filter {
-	width: 170px;
-	height: 30px;
-	font-size: 20px;
-	background-color:darkseagreen;
-	color: black;
-	text-align: center;
-	margin-bottom: 20px;
-}
-
-#language-filter {
-	width: 170px;
-	height: 30px;
-	font-size: 20px;
-	background-color:darksalmon;
-	color: black;
-	text-align: center;
-	margin-bottom: 20px;
-}
-
-#source-filter {
-	width: 170px;
-	height: 30px;
-	font-size: 20px;
-	background-color:rgb(90, 153, 153);
-	color: black;
-	text-align: center;
-	margin-bottom: 20px;
-} */
-
 a {
 	font-size: 20px;
 	font-weight: 500;

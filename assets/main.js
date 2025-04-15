@@ -75,27 +75,6 @@ let filterFonts = (data) => {
 
 
 
-// fetch('assets/data.json')
-// .then(response => response.json())
-// 	.then(data => {
-// 		renderItems(data);
-// 		// And passes the data to the function, above!
-
-// 		document.querySelector('#category-filter').addEventListener('change', () => {
-// 			filterFonts(data);
-// 		});
-// 		document.querySelector('#usage-filter').addEventListener('change', () => {
-// 			filterFonts(data);
-// 		});
-// 		document.querySelector('#language-filter').addEventListener('change', () => {
-// 			filterFonts(data);
-// 		});
-// 		document.querySelector('#source-filter').addEventListener('change', () => {
-// 			filterFonts(data);
-// 		});
-// 	});
-
-
 // popup
 	/* I wanted to create Popup Modal */
 	/* I found this tutorial: https://wisepops.com/blog/html-popup */
@@ -125,8 +104,6 @@ let filterFonts = (data) => {
 	});
 	});
 	
-
-
 
 
 // multistep form
