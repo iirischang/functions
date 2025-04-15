@@ -75,6 +75,11 @@
 				  h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
 				})(document);
 			  </script>
+
+
+			<link rel="preconnect" href="https://fonts.googleapis.com">
+			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+			<link href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap" rel="stylesheet">
 	</head>
 
 	<body>
@@ -82,7 +87,7 @@
 		<!-- popup -->
 	<div class="popup-overlay" id="popupOverlay">
 		<div class="popup" id="popup">
-			<span class="close" id="closePopup">&times;</span>
+			<span class="close" id="closePopup">&#10005;</span>
 			<div class="popup-content">
 				<p class="popup-content">Hey there!</p>
 				<p class="popup-content">Looking for the right typeface for your design project?</p><br>
@@ -93,7 +98,7 @@
 	</div>
 
 
-	<h1>What's your TYPE?</h1>
+	<h1>What's your Type</h1>
 		<!-- <h2>If your project was a planet, which galaxy would it call home?</h2> -->
 		<div id="multi-step-form-container">
 			<!-- steps -->
@@ -101,27 +106,18 @@
 			<!-- step-1 -->
 			<li class="form-stepper-active text-center form-stepper-list" step="1">
 				<a class="mx-2">
-					<span class="form-stepper-circle">
-					</span>1</span>
-					</span>
 					<div class="label">Topic</div>
 				</a>
 			</li>
 			 <!-- step-2 -->
 			<li class="form-stepper-active text-center form-stepper-list" step="2">
 				<a class="mx-2">
-					<span class="form-stepper-circle text-muted">
-					</span>2</span>
-					</span>
 					<div class="label text-muted">Brand</div>
 				</a>
 			</li>
 			<!-- step-3 -->
 			<li class="form-stepper-active text-center form-stepper-list" step="3">
 				<a class="mx-2">
-					<span class="form-stepper-circle text-muted">
-					</span>3</span>
-					</span>
 					<div class="label text-muted">Usage</div>
 				</a>
 			</li>
