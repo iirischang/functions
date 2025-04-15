@@ -194,10 +194,11 @@ ul.form-stepper .form-stepper-circle span {
 } */
 
 
-.options-buttons {
+.option-buttons {
 	display: flex;
 	flex-wrap: wrap;
-	gap: 20;
+	gap: 2px;
+	justify-content: center;
 }
 
 .option-btn {
@@ -294,7 +295,7 @@ ul.form-stepper .form-stepper-circle span {
 
 .popup {
 	z-index: 100;
-	background-color: #e7e7e7;
+	background-color: #dedede;
 	color: #1c1c1c;
 	position: flex;
 	justify-content: center;

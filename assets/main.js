@@ -183,20 +183,6 @@ let filterFonts = (data) => {
 			
 			};
 
-	// select-buttons
-	document.querySelectorAll(".btn-navigate-form-step").forEach((formNavigationBtn) => {
-
-		// add-click-event
-		formNavigationBtn.addEventListener("click", () => {
-
-		// get-the-value
-		const stepNumber = parseInt(formNavigationBtn.getAttribute("step_number"));
-
-		// call-function
-		navigateToFormStep(stepNumber);
-
-		});
-	});
 
 
 	fetch('assets/data.json')
