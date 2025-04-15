@@ -1,6 +1,6 @@
 body {
 	/* margin: 35px; */
-	background-color: #f9f9f9;
+	background-color: #e7e7e7;
 	font-family: 'Funnel Display';
 	text-align: center;
 	/* color:beige; */
@@ -15,11 +15,13 @@ h1 {
 }
 
 h2 {
+	margin-left: 20px;
+	margin-right: 20px;
 	margin-bottom: 30px;
-	font-size: 40px;
+	font-size: 30px;
 	text-align: left;
 	text-align: center;
-	color:lightsteelblue ;
+	color: #1c1c1c ;
 }
 
 h3 {
@@ -46,7 +48,7 @@ label {
 	font-size: 20px;
 }
 
-#category-filter {
+/* #category-filter {
 	width: 170;
 	height: 30px;
 	font-size: 20px;
@@ -84,7 +86,7 @@ label {
 	color: black;
 	text-align: center;
 	margin-bottom: 20px;
-}
+} */
 
 a {
 	font-size: 20px;
@@ -117,9 +119,7 @@ li {
 .button {
 	font-size: 20px;
 	padding: 19px 40px;
-	background-color:lightsteelblue;
 	color: #1c1c1c;
-	/* border: 1px solid beige; */
 	border-radius: 40px;
 	cursor: pointer;
 	margin-top: 60px;
@@ -128,12 +128,11 @@ li {
 }
 
 .submit-btn {
-	background-color: white;
 	color: #1c1c1c;
 }
 
 .mt-3 {
-	margin-top: 20px;
+	margin-top: -10px;
 }
 
 .d-none {
@@ -169,8 +168,9 @@ ul.form-stepper .form-stepper-circle span {
 	position: relative;
 	display: flex;
 	justify-content: space-between;
-	margin: 40px auto;
+	/* margin: 40px auto; */
 	width: 80%;
+	text-transform: lowercase;
 }
 
 .form-stepper-list {
@@ -201,12 +201,12 @@ ul.form-stepper .form-stepper-circle span {
 }
 
 .option-btn {
-	padding: 19px 40px;
-	color: beige;
-	border: 1px solid beige;
-	border-radius: 40px;
+	padding: 10px 22px;
+	color: #1c1c1c;
+	border: 1.5px solid #1c1c1c;
+	/* border-radius: 10px; */
 	margin: 5px;
-	font-size: 25px;
+	font-size: 18px;
 }
 
 .option-btn:hover {
@@ -273,8 +273,8 @@ ul.form-stepper .form-stepper-circle span {
 }
 
 .option-btn.selected {
-	background-color: beige;
-	color: #1c1c1c;
+	background-color: #1c1c1c;
+	color: #e7e7e7;
 }
 
 
@@ -294,7 +294,7 @@ ul.form-stepper .form-stepper-circle span {
 
 .popup {
 	z-index: 100;
-	background-color: #eaeaea;
+	background-color: #e7e7e7;
 	color: #1c1c1c;
 	position: flex;
 	justify-content: center;
