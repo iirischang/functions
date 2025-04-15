@@ -96,6 +96,41 @@ let filterFonts = (data) => {
 // 	});
 
 
+// popup
+	/* I wanted to create Popup Modal */
+	/* I found this tutorial: https://wisepops.com/blog/html-popup */
+	/* This script helps me understand how to create a popup modal */
+		
+	document.addEventListener('DOMContentLoaded', function(){
+		const popupOverlay =
+		document.getElementById('popupOverlay');
+		const popup = document.getElementById('popup');
+
+		// open
+	function openPopup(){
+		popupOverlay.style.display = 'block';
+	}
+	// close
+	function closePopupFunc(){
+		popupOverlay.style.display = 'none';
+	}
+	
+	openPopup();
+	
+	closePopup.addEventListener('click', closePopupFunc);
+	popupOverlay.addEventListener('click', function(event){
+		if(event.target === popupOverlay){
+			closePopupFunc();
+		}
+	});
+	});
+	
+
+
+
+
+// multistep form
+
 	/* I wanted to create Multistep Form Functional */
 	/* I found this tutorial: https://levelup.gitconnected.com/create-a-multi-step-form-using-html-css-and-javascript-30aca5c062fc */
 	/* This script defines a function to navigate between form steps. */
