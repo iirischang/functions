@@ -123,6 +123,15 @@ let renderItems = (data) => {
 		formStepCircle.classList.remove("form-stepper-unfinished", "form-stepper-completed");
 		formStepCircle.classList.add("form-stepper-active");
 
+		document.querySelectorAll(".form-stepper-list").forEach((stepEl, index) => {
+			const label = stepEl.querySelector(".label");
+			if (index + 1 === stepNumber) {
+				label.classList.remove("muted");
+			} else {
+				label.classList.add("muted");
+			}
+		});
+
 		// loop-through-each-step
 		for (let index = 0; index < stepNumber; index++) {
 
