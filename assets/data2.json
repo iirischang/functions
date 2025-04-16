@@ -1,807 +1,296 @@
 [
   {
     "name": "Work Sans",
-    "category": "sans-serif",
-    "url": "https://fonts.google.com/specimen/Work+Sans",
-    "topics": [
-      "Tech",
-      "Food",
-      "Health"
-    ],
-    "brands": [
-      "MUJI",
-      "Dior"
-    ],
-    "usages": [
-      "Magazine"
-    ]
+    "topics": "['Tech', 'Food', 'Finance', 'Health']",
+    "brands": "['Dior', 'MUJI']",
+    "usages": "['Packaging', 'Application', 'Magazine', 'Website', 'Poster']"
   },
   {
     "name": "Libre Franklin",
-    "category": "sans-serif",
-    "url": "https://fonts.google.com/specimen/Libre+Franklin",
-    "topics": [
-      "Food",
-      "Finance",
-      "Education"
-    ],
-    "brands": [
-      "Disney",
-      "IBM"
-    ],
-    "usages": [
-      "Packaging",
-      "Website"
-    ]
+    "topics": "['Education', 'Food', 'Finance', 'Health']",
+    "brands": "['Disney', 'IBM', 'Dior']",
+    "usages": "['Packaging', 'Magazine', 'Website', 'Poster']"
   },
   {
     "name": "Rubik",
-    "category": "sans-serif",
-    "url": "https://fonts.google.com/specimen/Rubik",
-    "topics": [
-      "Food"
-    ],
-    "brands": [
-      "IBM"
-    ],
-    "usages": [
-      "Packaging",
-      "Magazine",
-      "Website"
-    ]
+    "topics": "['Education', 'Tech', 'Food', 'Finance']",
+    "brands": "['IBM', 'MUJI']",
+    "usages": "['Website', 'Packaging', 'Magazine', 'Poster']"
   },
   {
     "name": "DM Sans",
-    "category": "sans-serif",
-    "url": "https://fonts.google.com/specimen/DM+Sans",
-    "topics": [
-      "Finance",
-      "Food"
-    ],
-    "brands": [
-      "Herseys"
-    ],
-    "usages": [
-      "Packaging"
-    ]
+    "topics": "['Food', 'Tech', 'Finance', 'Health']",
+    "brands": "['Disney', 'MUJI', 'IBM', 'Herseys']",
+    "usages": "['Packaging', 'Application']"
   },
   {
     "name": "Mulish",
-    "category": "sans-serif",
-    "url": "https://fonts.google.com/specimen/Mulish",
-    "topics": [
-      "Tech",
-      "Education"
-    ],
-    "brands": [
-      "MUJI"
-    ],
-    "usages": [
-      "Poster"
-    ]
+    "topics": "['Education', 'Tech', 'Food', 'Health']",
+    "brands": "['IBM', 'MUJI']",
+    "usages": "['Packaging', 'Website', 'Poster']"
   },
   {
     "name": "Barlow",
-    "category": "sans-serif",
-    "url": "https://fonts.google.com/specimen/Barlow",
-    "topics": [
-      "Food"
-    ],
-    "brands": [
-      "IBM",
-      "duolingo"
-    ],
-    "usages": [
-      "Website",
-      "Poster"
-    ]
+    "topics": "['Food', 'Tech', 'Finance']",
+    "brands": "['Disney', 'duolingo', 'IBM']",
+    "usages": "['Application', 'Magazine', 'Website', 'Poster']"
   },
   {
     "name": "Karla",
-    "category": "sans-serif",
-    "url": "https://fonts.google.com/specimen/Karla",
-    "topics": [
-      "Food"
-    ],
-    "brands": [
-      "duolingo"
-    ],
-    "usages": [
-      "Website",
-      "Packaging",
-      "Application"
-    ]
+    "topics": "['Education', 'Food', 'Tech', 'Health']",
+    "brands": "['duolingo']",
+    "usages": "['Website', 'Packaging', 'Application']"
   },
   {
     "name": "Manrope",
-    "category": "sans-serif",
-    "url": "https://fonts.google.com/specimen/Manrope",
-    "topics": [
-      "Food",
-      "Health"
-    ],
-    "brands": [
-      "MUJI"
-    ],
-    "usages": [
-      "Application"
-    ]
+    "topics": "['Food', 'Finance', 'Health']",
+    "brands": "['Herseys', 'MUJI', 'Dior']",
+    "usages": "['Application', 'Website', 'Poster']"
   },
   {
     "name": "Chivo",
-    "category": "sans-serif",
-    "url": "https://fonts.google.com/specimen/Chivo",
-    "topics": [
-      "Health",
-      "Finance"
-    ],
-    "brands": [
-      "duolingo",
-      "Herseys"
-    ],
-    "usages": [
-      "Magazine",
-      "Poster"
-    ]
+    "topics": "['Tech', 'Finance', 'Health']",
+    "brands": "['duolingo', 'Herseys']",
+    "usages": "['Application', 'Magazine', 'Website', 'Poster']"
   },
   {
     "name": "Kensington",
-    "category": "sans-serif",
-    "url": "https://fonts.adobe.com/fonts/kensington",
-    "topics": [
-      "Tech"
-    ],
-    "brands": [
-      "Dior"
-    ],
-    "usages": [
-      "Magazine",
-      "Packaging"
-    ]
+    "topics": "['Education', 'Tech', 'Food', 'Finance']",
+    "brands": "['Dior']",
+    "usages": "['Packaging', 'Application', 'Magazine']"
   },
   {
     "name": "Pressio",
-    "category": "sans-serif",
-    "url": "https://fonts.adobe.com/fonts/pressio",
-    "topics": [
-      "Food"
-    ],
-    "brands": [
-      "Dior",
-      "MUJI"
-    ],
-    "usages": [
-      "Packaging",
-      "Poster"
-    ]
+    "topics": "['Education', 'Food', 'Health']",
+    "brands": "['Dior', 'MUJI']",
+    "usages": "['Website', 'Packaging', 'Magazine', 'Poster']"
   },
   {
     "name": "Jali",
-    "category": "sans-serif",
-    "url": "https://fonts.adobe.com/fonts/jali-latin-variable",
-    "topics": [
-      "Education",
-      "Finance"
-    ],
-    "brands": [
-      "MUJI"
-    ],
-    "usages": [
-      "Packaging"
-    ]
+    "topics": "['Education', 'Food', 'Finance', 'Health']",
+    "brands": "['Disney', 'MUJI']",
+    "usages": "['Packaging', 'Website']"
   },
   {
     "name": "Avant Garde",
-    "category": "sans-serif",
-    "url": "https://fonts.adobe.com/fonts/itc-avant-garde-gothic",
-    "topics": [
-      "Education",
-      "Tech",
-      "Health"
-    ],
-    "brands": [
-      "IBM",
-      "Dior"
-    ],
-    "usages": [
-      "Website",
-      "Application",
-      "Magazine"
-    ]
+    "topics": "['Education', 'Tech', 'Food', 'Finance', 'Health']",
+    "brands": "['IBM', 'Dior']",
+    "usages": "['Website', 'Application', 'Magazine']"
   },
   {
     "name": "Brisbane",
-    "category": "sans-serif",
-    "url": "https://fonts.adobe.com/fonts/brisbane",
-    "topics": [
-      "Education",
-      "Health"
-    ],
-    "brands": [
-      "Dior",
-      "Disney"
-    ],
-    "usages": [
-      "Magazine",
-      "Website",
-      "Application"
-    ]
+    "topics": "['Education', 'Finance', 'Health']",
+    "brands": "['Disney', 'duolingo', 'Dior']",
+    "usages": "['Application', 'Magazine', 'Website', 'Poster']"
   },
   {
     "name": "Effra",
-    "category": "sans-serif",
-    "url": "https://fonts.adobe.com/fonts/effra-cc",
-    "topics": [
-      "Tech",
-      "Food",
-      "Finance"
-    ],
-    "brands": [
-      "IBM",
-      "Dior"
-    ],
-    "usages": [
-      "Poster"
-    ]
+    "topics": "['Tech', 'Food', 'Finance', 'Health']",
+    "brands": "['IBM', 'Dior']",
+    "usages": "['Magazine', 'Poster']"
   },
   {
     "name": "Venn",
-    "category": "sans-serif",
-    "url": "https://fonts.adobe.com/fonts/venn",
-    "topics": [
-      "Finance"
-    ],
-    "brands": [
-      "Herseys"
-    ],
-    "usages": [
-      "Magazine"
-    ]
+    "topics": "['Education', 'Tech', 'Food', 'Finance', 'Health']",
+    "brands": "['duolingo', 'Dior', 'Herseys']",
+    "usages": "['Packaging', 'Magazine', 'Poster']"
   },
   {
     "name": "Asterisk Sans",
-    "category": "sans-serif",
-    "url": "https://fonts.adobe.com/fonts/asterisk-sans-variable",
-    "topics": [
-      "Finance",
-      "Health",
-      "Education"
-    ],
-    "brands": [
-      "Herseys",
-      "duolingo"
-    ],
-    "usages": [
-      "Packaging",
-      "Poster"
-    ]
+    "topics": "['Education', 'Food', 'Finance', 'Health']",
+    "brands": "['duolingo', 'Disney', 'Dior', 'Herseys']",
+    "usages": "['Packaging', 'Magazine', 'Poster']"
   },
   {
     "name": "Config",
-    "category": "sans-serif",
-    "url": "https://fonts.adobe.com/fonts/config-variable",
-    "topics": [
-      "Tech",
-      "Health",
-      "Food"
-    ],
-    "brands": [
-      "Herseys"
-    ],
-    "usages": [
-      "Magazine",
-      "Poster"
-    ]
+    "topics": "['Education', 'Tech', 'Food', 'Health']",
+    "brands": "['duolingo', 'IBM', 'Herseys']",
+    "usages": "['Application', 'Magazine', 'Website', 'Poster']"
   },
   {
     "name": "Vina Sans",
-    "category": "sans-serif",
-    "url": "https://fonts.adobe.com/fonts/vina-sans",
-    "topics": [
-      "Education",
-      "Finance"
-    ],
-    "brands": [
-      "Disney"
-    ],
-    "usages": [
-      "Application",
-      "Poster"
-    ]
+    "topics": "['Education', 'Tech', 'Food', 'Finance']",
+    "brands": "['Disney', 'IBM']",
+    "usages": "['Application', 'Magazine', 'Website', 'Poster']"
   },
   {
     "name": "Hatch Sans",
-    "category": "sans-serif",
-    "url": "https://fonts.adobe.com/fonts/hatch-sans",
-    "topics": [
-      "Education"
-    ],
-    "brands": [
-      "Dior",
-      "duolingo"
-    ],
-    "usages": [
-      "Application",
-      "Website",
-      "Magazine"
-    ]
+    "topics": "['Education', 'Tech', 'Food', 'Health']",
+    "brands": "['duolingo', 'Herseys', 'Dior']",
+    "usages": "['Website', 'Application', 'Magazine']"
   },
   {
     "name": "Climate Crisis",
-    "category": "sans-serif",
-    "url": "https://fonts.adobe.com/fonts/climate-crisis-variable",
-    "topics": [
-      "Health"
-    ],
-    "brands": [
-      "Dior"
-    ],
-    "usages": [
-      "Magazine",
-      "Packaging",
-      "Poster"
-    ]
+    "topics": "['Education', 'Tech', 'Health']",
+    "brands": "['duolingo', 'Dior']",
+    "usages": "['Packaging', 'Application', 'Magazine', 'Website', 'Poster']"
   },
   {
     "name": "Cerulya CF",
-    "category": "sans-serif",
-    "url": "https://fonts.adobe.com/fonts/cerulya-cf",
-    "topics": [
-      "Education"
-    ],
-    "brands": [
-      "duolingo"
-    ],
-    "usages": [
-      "Website",
-      "Magazine"
-    ]
+    "topics": "['Education', 'Tech', 'Food', 'Finance']",
+    "brands": "['Disney', 'duolingo', 'IBM', 'Herseys']",
+    "usages": "['Application', 'Magazine', 'Website', 'Poster']"
   },
   {
     "name": "Kit",
-    "category": "sans-serif",
-    "url": "https://fonts.adobe.com/fonts/kit",
-    "topics": [
-      "Education",
-      "Health"
-    ],
-    "brands": [
-      "MUJI",
-      "duolingo"
-    ],
-    "usages": [
-      "Poster",
-      "Application",
-      "Packaging"
-    ]
+    "topics": "['Education', 'Tech', 'Food', 'Finance', 'Health']",
+    "brands": "['duolingo', 'Disney', 'MUJI', 'Dior', 'Herseys']",
+    "usages": "['Packaging', 'Application', 'Magazine', 'Poster']"
   },
   {
     "name": "Neulis Sans",
-    "category": "sans-serif",
-    "url": "https://fonts.adobe.com/fonts/neulis-sans",
-    "topics": [
-      "Health"
-    ],
-    "brands": [
-      "Dior",
-      "MUJI"
-    ],
-    "usages": [
-      "Website"
-    ]
+    "topics": "['Tech', 'Food', 'Health']",
+    "brands": "['Disney', 'MUJI', 'Dior']",
+    "usages": "['Packaging', 'Website', 'Poster']"
   },
   {
     "name": "Playfair Display",
-    "category": "Serif",
-    "url": "https://fonts.google.com/specimen/Playfair+Display",
-    "topics": [
-      "Health",
-      "Tech",
-      "Education"
-    ],
-    "brands": [
-      "MUJI"
-    ],
-    "usages": [
-      "Poster"
-    ]
+    "topics": "['Education', 'Tech', 'Health']",
+    "brands": "['MUJI', 'IBM', 'Dior']",
+    "usages": "['Website', 'Packaging', 'Application', 'Poster']"
   },
   {
     "name": "EB Garamond",
-    "category": "Serif",
-    "url": "https://fonts.google.com/specimen/EB+Garamond?",
-    "topics": [
-      "Food",
-      "Education",
-      "Finance"
-    ],
-    "brands": [
-      "Herseys",
-      "Disney"
-    ],
-    "usages": [
-      "Website",
-      "Poster"
-    ]
+    "topics": "['Education', 'Tech', 'Food', 'Finance', 'Health']",
+    "brands": "['Disney', 'duolingo', 'Dior', 'Herseys']",
+    "usages": "['Website', 'Application', 'Poster']"
   },
   {
     "name": "Crimson Text",
-    "category": "Serif",
-    "url": "https://fonts.google.com/specimen/Crimson+Text",
-    "topics": [
-      "Tech",
-      "Education"
-    ],
-    "brands": [
-      "duolingo",
-      "Dior"
-    ],
-    "usages": [
-      "Packaging"
-    ]
+    "topics": "['Education', 'Tech', 'Food', 'Health']",
+    "brands": "['duolingo', 'IBM', 'Dior', 'Herseys']",
+    "usages": "['Website', 'Packaging', 'Magazine']"
   },
   {
     "name": "Gilda Display",
-    "category": "Serif",
-    "url": "https://fonts.google.com/specimen/Gilda+Display",
-    "topics": [
-      "Education",
-      "Finance",
-      "Health"
-    ],
-    "brands": [
-      "Dior"
-    ],
-    "usages": [
-      "Poster",
-      "Packaging",
-      "Magazine"
-    ]
+    "topics": "['Education', 'Finance', 'Health']",
+    "brands": "['Disney', 'Dior']",
+    "usages": "['Packaging', 'Magazine', 'Poster']"
   },
   {
     "name": "Momochidori",
-    "category": "Serif",
-    "url": "https://fonts.adobe.com/fonts/momochidori",
-    "topics": [
-      "Education"
-    ],
-    "brands": [
-      "Disney",
-      "MUJI"
-    ],
-    "usages": [
-      "Website"
-    ]
+    "topics": "['Education', 'Food', 'Finance', 'Health']",
+    "brands": "['Disney', 'MUJI', 'Dior']",
+    "usages": "['Packaging', 'Magazine', 'Website', 'Poster']"
   },
   {
     "name": "Jenson",
-    "category": "Serif",
-    "url": "https://fonts.adobe.com/fonts/adobe-jenson",
-    "topics": [
-      "Food"
-    ],
-    "brands": [
-      "Dior",
-      "Herseys"
-    ],
-    "usages": [
-      "Packaging",
-      "Application",
-      "Poster"
-    ]
+    "topics": "['Food', 'Tech', 'Health']",
+    "brands": "['Disney', 'Dior', 'Herseys']",
+    "usages": "['Packaging', 'Application', 'Magazine', 'Poster']"
   },
   {
     "name": "Benton Modern Display",
-    "category": "Serif",
-    "url": "https://fonts.adobe.com/fonts/benton-modern-display",
-    "topics": [
-      "Tech"
-    ],
-    "brands": [
-      "duolingo",
-      "MUJI"
-    ],
-    "usages": [
-      "Application",
-      "Website",
-      "Packaging"
-    ]
+    "topics": "['Tech', 'Food']",
+    "brands": "['duolingo', 'MUJI']",
+    "usages": "['Packaging', 'Application', 'Website', 'Poster']"
   },
   {
     "name": "Cormorant",
-    "category": "Serif",
-    "url": "https://fonts.adobe.com/fonts/cormorant",
-    "topics": [
-      "Tech"
-    ],
-    "brands": [
-      "Herseys"
-    ],
-    "usages": [
-      "Magazine",
-      "Packaging",
-      "Application"
-    ]
+    "topics": "['Tech', 'Food']",
+    "brands": "['MUJI', 'Herseys']",
+    "usages": "['Packaging', 'Application', 'Magazine', 'Poster']"
   },
   {
     "name": "Mestiza",
-    "category": "Serif",
-    "url": "https://fonts.adobe.com/fonts/mestiza",
-    "topics": [
-      "Health",
-      "Tech"
-    ],
-    "brands": [
-      "duolingo"
-    ],
-    "usages": [
-      "Website",
-      "Application",
-      "Poster"
-    ]
+    "topics": "['Education', 'Tech', 'Finance', 'Health']",
+    "brands": "['duolingo', 'Herseys']",
+    "usages": "['Packaging', 'Application', 'Magazine', 'Website', 'Poster']"
   },
   {
     "name": "Mastro",
-    "category": "Serif",
-    "url": "https://fonts.adobe.com/fonts/mastro",
-    "topics": [
-      "Finance",
-      "Education"
-    ],
-    "brands": [
-      "IBM"
-    ],
-    "usages": [
-      "Packaging",
-      "Website"
-    ]
+    "topics": "['Education', 'Food', 'Finance']",
+    "brands": "['IBM', 'Dior', 'Herseys']",
+    "usages": "['Packaging', 'Magazine', 'Website', 'Poster']"
   },
   {
     "name": "Anth",
-    "category": "Serif",
-    "url": "https://fonts.adobe.com/fonts/anth",
-    "topics": [
-      "Finance",
-      "Education"
-    ],
-    "brands": [
-      "Dior",
-      "Disney"
-    ],
-    "usages": [
-      "Application",
-      "Website"
-    ]
+    "topics": "['Education', 'Food', 'Tech', 'Finance', 'Health']",
+    "brands": "['Disney', 'Dior', 'MUJI']",
+    "usages": "['Packaging', 'Application', 'Magazine', 'Website', 'Poster']"
   },
   {
     "name": "Maregraphe",
-    "category": "Serif",
-    "url": "https://fonts.adobe.com/fonts/maregraphe-variable",
-    "topics": [
-      "Health"
-    ],
-    "brands": [
-      "Disney",
-      "duolingo"
-    ],
-    "usages": [
-      "Magazine",
-      "Poster",
-      "Application"
-    ]
+    "topics": "['Education', 'Food', 'Finance', 'Health']",
+    "brands": "['Disney', 'duolingo', 'MUJI']",
+    "usages": "['Application', 'Magazine', 'Poster']"
   },
   {
     "name": "Meursault",
-    "category": "Serif",
-    "url": "https://fonts.adobe.com/fonts/meursault-variable",
-    "topics": [
-      "Health",
-      "Education"
-    ],
-    "brands": [
-      "MUJI"
-    ],
-    "usages": [
-      "Application"
-    ]
+    "topics": "['Education', 'Tech', 'Finance', 'Health']",
+    "brands": "['MUJI', 'Dior']",
+    "usages": "['Application', 'Magazine', 'Website']"
   },
   {
     "name": "The Seasons",
-    "category": "Serif",
-    "url": "https://fonts.adobe.com/fonts/the-seasons",
-    "topics": [
-      "Health",
-      "Education"
-    ],
-    "brands": [
-      "Dior",
-      "duolingo"
-    ],
-    "usages": [
-      "Application",
-      "Packaging"
-    ]
+    "topics": "['Education', 'Food', 'Tech', 'Health']",
+    "brands": "['duolingo', 'Disney', 'Dior']",
+    "usages": "['Packaging', 'Application']"
   },
   {
     "name": "Presti Text",
-    "category": "Serif",
-    "url": "https://fonts.adobe.com/fonts/presti-text",
-    "topics": [
-      "Finance",
-      "Education",
-      "Food"
-    ],
-    "brands": [
-      "IBM",
-      "MUJI"
-    ],
-    "usages": [
-      "Application",
-      "Website"
-    ]
+    "topics": "['Education', 'Food', 'Tech', 'Finance', 'Health']",
+    "brands": "['Disney', 'IBM', 'MUJI']",
+    "usages": "['Application', 'Magazine', 'Website', 'Poster']"
   },
   {
     "name": "Begum",
-    "category": "Serif",
-    "url": "https://fonts.adobe.com/fonts/begum",
-    "topics": [
-      "Education",
-      "Tech",
-      "Health"
-    ],
-    "brands": [
-      "Dior",
-      "duolingo"
-    ],
-    "usages": [
-      "Application",
-      "Packaging"
-    ]
+    "topics": "['Education', 'Tech', 'Health']",
+    "brands": "['duolingo', 'Disney', 'MUJI', 'Dior', 'Herseys']",
+    "usages": "['Packaging', 'Application', 'Magazine', 'Poster']"
   },
   {
     "name": "Moret",
-    "category": "Serif",
-    "url": "https://fonts.adobe.com/fonts/moret-variable",
-    "topics": [
-      "Education",
-      "Finance",
-      "Food"
-    ],
-    "brands": [
-      "Dior",
-      "Disney"
-    ],
-    "usages": [
-      "Poster",
-      "Website",
-      "Packaging"
-    ]
+    "topics": "['Education', 'Food', 'Finance', 'Health']",
+    "brands": "['Disney', 'Dior']",
+    "usages": "['Packaging', 'Application', 'Website', 'Poster']"
   },
   {
     "name": "Lust Didone",
-    "category": "Serif",
-    "url": "https://fonts.adobe.com/fonts/lust-didone",
-    "topics": [
-      "Education"
-    ],
-    "brands": [
-      "Herseys",
-      "Dior"
-    ],
-    "usages": [
-      "Packaging"
-    ]
+    "topics": "['Education', 'Food', 'Finance', 'Health']",
+    "brands": "['Dior', 'Herseys']",
+    "usages": "['Packaging', 'Application', 'Magazine']"
   },
   {
     "name": "Fields Display",
-    "category": "Serif",
-    "url": "https://fonts.adobe.com/fonts/fields-display",
-    "topics": [
-      "Health",
-      "Tech"
-    ],
-    "brands": [
-      "duolingo",
-      "Disney"
-    ],
-    "usages": [
-      "Website"
-    ]
+    "topics": "['Education', 'Tech', 'Food', 'Finance', 'Health']",
+    "brands": "['Disney', 'duolingo', 'Dior', 'MUJI']",
+    "usages": "['Website', 'Packaging', 'Application']"
   },
   {
     "name": "Tuppence",
-    "category": "Serif",
-    "url": "https://fonts.adobe.com/fonts/tuppence-variable",
-    "topics": [
-      "Tech"
-    ],
-    "brands": [
-      "duolingo"
-    ],
-    "usages": [
-      "Website",
-      "Application"
-    ]
+    "topics": "['Tech', 'Finance', 'Health']",
+    "brands": "['MUJI', 'duolingo', 'Dior']",
+    "usages": "['Application', 'Website']"
   },
   {
     "name": "Marlide Display",
-    "category": "Serif",
-    "url": "https://fonts.adobe.com/fonts/marlide-display-variable",
-    "topics": [
-      "Health",
-      "Education"
-    ],
-    "brands": [
-      "Dior"
-    ],
-    "usages": [
-      "Poster",
-      "Website",
-      "Magazine"
-    ]
+    "topics": "['Education', 'Tech', 'Food', 'Health']",
+    "brands": "['Disney', 'duolingo', 'Dior']",
+    "usages": "['Packaging', 'Application', 'Magazine', 'Website', 'Poster']"
   },
   {
     "name": "Winsel",
-    "category": "Serif",
-    "url": "https://fonts.adobe.com/fonts/winsel-variable",
-    "topics": [
-      "Health"
-    ],
-    "brands": [
-      "MUJI"
-    ],
-    "usages": [
-      "Magazine"
-    ]
+    "topics": "['Education', 'Finance', 'Health']",
+    "brands": "['MUJI']",
+    "usages": "['Application', 'Magazine', 'Poster']"
   },
   {
     "name": "Yink",
-    "category": "Serif",
-    "url": "https://fonts.adobe.com/fonts/yink",
-    "topics": [
-      "Education",
-      "Finance"
-    ],
-    "brands": [
-      "Herseys",
-      "Disney"
-    ],
-    "usages": [
-      "Application",
-      "Poster",
-      "Website"
-    ]
+    "topics": "['Education', 'Tech', 'Food', 'Finance', 'Health']",
+    "brands": "['Disney', 'Herseys']",
+    "usages": "['Application', 'Magazine', 'Website', 'Poster']"
   },
   {
     "name": "IvyOra",
-    "category": "Serif",
-    "url": "https://fonts.adobe.com/fonts/ivyora",
-    "topics": [
-      "Food",
-      "Tech"
-    ],
-    "brands": [
-      "MUJI"
-    ],
-    "usages": [
-      "Application",
-      "Website"
-    ]
+    "topics": "['Food', 'Tech']",
+    "brands": "['IBM', 'MUJI']",
+    "usages": "['Website', 'Application', 'Magazine', 'Poster']"
   },
   {
     "name": "Sigurd",
-    "category": "Serif",
-    "url": "https://fonts.adobe.com/fonts/sigurd",
-    "topics": [
-      "Tech"
-    ],
-    "brands": [
-      "duolingo",
-      "IBM"
-    ],
-    "usages": [
-      "Website",
-      "Poster"
-    ]
+    "topics": "['Education', 'Tech', 'Food', 'Finance', 'Health']",
+    "brands": "['Disney', 'duolingo', 'IBM']",
+    "usages": "['Magazine', 'Website', 'Poster']"
   }
 ]
