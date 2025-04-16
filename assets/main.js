@@ -184,6 +184,11 @@ let filterFonts = (data) => {
 
 			renderItems(data);
 
+			document.getElementById('results-container').scrollIntoView ({
+				behavior: 'smooth',
+				block: 'start'
+			});
+
 		});
 
 		// restart button
