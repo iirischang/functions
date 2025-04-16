@@ -228,16 +228,23 @@ let renderItems = (data) => {
 
 		optionButtons.forEach(button => {
 			button.addEventListener("click", () => {
-				button.classList.toggle("selected");
-				const value = button.getAttribute("data-value");
 
-				if(selectedValues.includes(value)) {
-					selectedValues = selectedValues.filter(v => v !== value);
-				} else {
-					selectedValues.push(value);
-				}
-				document.getElementById(hiddenInputId).value = selectedValues.join(", ")
-				nextButton.disabled = selectedValues.length === 0;
+				optionButtons.forEach(btn => btn.classList.remove("selected"));
+
+				// select one
+				button.classList.add("selected");
+				const value = button.getAttribute("data-value");
+				document.getElementById(hiddenInputId).value = value;
+
+				nextButton.disabled = false;
+
+				// if(selectedValues.includes(value)) {
+				// 	selectedValues = selectedValues.filter(v => v !== value);
+				// } else {
+				// 	selectedValues.push(value);
+				// }
+				// document.getElementById(hiddenInputId).value = selectedValues.join(", ")
+				// nextButton.disabled = selectedValues.length === 0;
 			});
 		});
 	}

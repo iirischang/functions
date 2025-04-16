@@ -3,248 +3,805 @@
     "name": "Work Sans",
     "category": "sans-serif",
     "url": "https://fonts.google.com/specimen/Work+Sans",
-    "topics": ["Health", "Food", "Education"],
-    "brands": ["IBM", "MUJI"],
-    "usages": ["Website", "Application"]
+    "topics": [
+      "Tech",
+      "Food",
+      "Health"
+    ],
+    "brands": [
+      "MUJI",
+      "Dior"
+    ],
+    "usages": [
+      "Magazine"
+    ]
   },
   {
     "name": "Libre Franklin",
     "category": "sans-serif",
-    "url": "https://fonts.google.com/specimen/Libre+Franklin"
+    "url": "https://fonts.google.com/specimen/Libre+Franklin",
+    "topics": [
+      "Food",
+      "Finance",
+      "Education"
+    ],
+    "brands": [
+      "Disney",
+      "IBM"
+    ],
+    "usages": [
+      "Packaging",
+      "Website"
+    ]
   },
   {
     "name": "Rubik",
     "category": "sans-serif",
-    "url": "https://fonts.google.com/specimen/Rubik"
+    "url": "https://fonts.google.com/specimen/Rubik",
+    "topics": [
+      "Food"
+    ],
+    "brands": [
+      "IBM"
+    ],
+    "usages": [
+      "Packaging",
+      "Magazine",
+      "Website"
+    ]
   },
   {
     "name": "DM Sans",
     "category": "sans-serif",
-    "url": "https://fonts.google.com/specimen/DM+Sans"
+    "url": "https://fonts.google.com/specimen/DM+Sans",
+    "topics": [
+      "Finance",
+      "Food"
+    ],
+    "brands": [
+      "Herseys"
+    ],
+    "usages": [
+      "Packaging"
+    ]
   },
   {
     "name": "Mulish",
     "category": "sans-serif",
-    "url": "https://fonts.google.com/specimen/Mulish"
+    "url": "https://fonts.google.com/specimen/Mulish",
+    "topics": [
+      "Tech",
+      "Education"
+    ],
+    "brands": [
+      "MUJI"
+    ],
+    "usages": [
+      "Poster"
+    ]
   },
   {
     "name": "Barlow",
     "category": "sans-serif",
-    "url": "https://fonts.google.com/specimen/Barlow"
+    "url": "https://fonts.google.com/specimen/Barlow",
+    "topics": [
+      "Food"
+    ],
+    "brands": [
+      "IBM",
+      "duolingo"
+    ],
+    "usages": [
+      "Website",
+      "Poster"
+    ]
   },
   {
     "name": "Karla",
     "category": "sans-serif",
-    "url": "https://fonts.google.com/specimen/Karla"
+    "url": "https://fonts.google.com/specimen/Karla",
+    "topics": [
+      "Food"
+    ],
+    "brands": [
+      "duolingo"
+    ],
+    "usages": [
+      "Website",
+      "Packaging",
+      "Application"
+    ]
   },
   {
     "name": "Manrope",
     "category": "sans-serif",
-    "url": "https://fonts.google.com/specimen/Manrope"
+    "url": "https://fonts.google.com/specimen/Manrope",
+    "topics": [
+      "Food",
+      "Health"
+    ],
+    "brands": [
+      "MUJI"
+    ],
+    "usages": [
+      "Application"
+    ]
   },
   {
     "name": "Chivo",
     "category": "sans-serif",
-    "url": "https://fonts.google.com/specimen/Chivo"
+    "url": "https://fonts.google.com/specimen/Chivo",
+    "topics": [
+      "Health",
+      "Finance"
+    ],
+    "brands": [
+      "duolingo",
+      "Herseys"
+    ],
+    "usages": [
+      "Magazine",
+      "Poster"
+    ]
   },
   {
     "name": "Kensington",
     "category": "sans-serif",
-    "url": "https://fonts.adobe.com/fonts/kensington"
+    "url": "https://fonts.adobe.com/fonts/kensington",
+    "topics": [
+      "Tech"
+    ],
+    "brands": [
+      "Dior"
+    ],
+    "usages": [
+      "Magazine",
+      "Packaging"
+    ]
   },
   {
     "name": "Pressio",
     "category": "sans-serif",
-    "url": "https://fonts.adobe.com/fonts/pressio"
+    "url": "https://fonts.adobe.com/fonts/pressio",
+    "topics": [
+      "Food"
+    ],
+    "brands": [
+      "Dior",
+      "MUJI"
+    ],
+    "usages": [
+      "Packaging",
+      "Poster"
+    ]
   },
   {
     "name": "Jali",
     "category": "sans-serif",
-    "url": "https://fonts.adobe.com/fonts/jali-latin-variable"
+    "url": "https://fonts.adobe.com/fonts/jali-latin-variable",
+    "topics": [
+      "Education",
+      "Finance"
+    ],
+    "brands": [
+      "MUJI"
+    ],
+    "usages": [
+      "Packaging"
+    ]
   },
   {
     "name": "Avant Garde",
     "category": "sans-serif",
-    "url": "https://fonts.adobe.com/fonts/itc-avant-garde-gothic"
+    "url": "https://fonts.adobe.com/fonts/itc-avant-garde-gothic",
+    "topics": [
+      "Education",
+      "Tech",
+      "Health"
+    ],
+    "brands": [
+      "IBM",
+      "Dior"
+    ],
+    "usages": [
+      "Website",
+      "Application",
+      "Magazine"
+    ]
   },
   {
     "name": "Brisbane",
     "category": "sans-serif",
-    "url": "https://fonts.adobe.com/fonts/brisbane"
+    "url": "https://fonts.adobe.com/fonts/brisbane",
+    "topics": [
+      "Education",
+      "Health"
+    ],
+    "brands": [
+      "Dior",
+      "Disney"
+    ],
+    "usages": [
+      "Magazine",
+      "Website",
+      "Application"
+    ]
   },
   {
     "name": "Effra",
     "category": "sans-serif",
-    "url": "https://fonts.adobe.com/fonts/effra-cc"
+    "url": "https://fonts.adobe.com/fonts/effra-cc",
+    "topics": [
+      "Tech",
+      "Food",
+      "Finance"
+    ],
+    "brands": [
+      "IBM",
+      "Dior"
+    ],
+    "usages": [
+      "Poster"
+    ]
   },
   {
     "name": "Venn",
     "category": "sans-serif",
-    "url": "https://fonts.adobe.com/fonts/venn"
+    "url": "https://fonts.adobe.com/fonts/venn",
+    "topics": [
+      "Finance"
+    ],
+    "brands": [
+      "Herseys"
+    ],
+    "usages": [
+      "Magazine"
+    ]
   },
   {
     "name": "Asterisk Sans",
     "category": "sans-serif",
-    "url": "https://fonts.adobe.com/fonts/asterisk-sans-variable"
+    "url": "https://fonts.adobe.com/fonts/asterisk-sans-variable",
+    "topics": [
+      "Finance",
+      "Health",
+      "Education"
+    ],
+    "brands": [
+      "Herseys",
+      "duolingo"
+    ],
+    "usages": [
+      "Packaging",
+      "Poster"
+    ]
   },
   {
     "name": "Config",
     "category": "sans-serif",
-    "url": "https://fonts.adobe.com/fonts/config-variable"
+    "url": "https://fonts.adobe.com/fonts/config-variable",
+    "topics": [
+      "Tech",
+      "Health",
+      "Food"
+    ],
+    "brands": [
+      "Herseys"
+    ],
+    "usages": [
+      "Magazine",
+      "Poster"
+    ]
   },
   {
     "name": "Vina Sans",
     "category": "sans-serif",
-    "url": "https://fonts.adobe.com/fonts/vina-sans"
+    "url": "https://fonts.adobe.com/fonts/vina-sans",
+    "topics": [
+      "Education",
+      "Finance"
+    ],
+    "brands": [
+      "Disney"
+    ],
+    "usages": [
+      "Application",
+      "Poster"
+    ]
   },
   {
     "name": "Hatch Sans",
     "category": "sans-serif",
-    "url": "https://fonts.adobe.com/fonts/hatch-sans"
+    "url": "https://fonts.adobe.com/fonts/hatch-sans",
+    "topics": [
+      "Education"
+    ],
+    "brands": [
+      "Dior",
+      "duolingo"
+    ],
+    "usages": [
+      "Application",
+      "Website",
+      "Magazine"
+    ]
   },
   {
     "name": "Climate Crisis",
     "category": "sans-serif",
-    "url": "https://fonts.adobe.com/fonts/climate-crisis-variable"
+    "url": "https://fonts.adobe.com/fonts/climate-crisis-variable",
+    "topics": [
+      "Health"
+    ],
+    "brands": [
+      "Dior"
+    ],
+    "usages": [
+      "Magazine",
+      "Packaging",
+      "Poster"
+    ]
   },
   {
     "name": "Cerulya CF",
     "category": "sans-serif",
-    "url": "https://fonts.adobe.com/fonts/cerulya-cf"
+    "url": "https://fonts.adobe.com/fonts/cerulya-cf",
+    "topics": [
+      "Education"
+    ],
+    "brands": [
+      "duolingo"
+    ],
+    "usages": [
+      "Website",
+      "Magazine"
+    ]
   },
   {
     "name": "Kit",
     "category": "sans-serif",
-    "url": "https://fonts.adobe.com/fonts/kit"
+    "url": "https://fonts.adobe.com/fonts/kit",
+    "topics": [
+      "Education",
+      "Health"
+    ],
+    "brands": [
+      "MUJI",
+      "duolingo"
+    ],
+    "usages": [
+      "Poster",
+      "Application",
+      "Packaging"
+    ]
   },
   {
     "name": "Neulis Sans",
     "category": "sans-serif",
-    "url": "https://fonts.adobe.com/fonts/neulis-sans"
+    "url": "https://fonts.adobe.com/fonts/neulis-sans",
+    "topics": [
+      "Health"
+    ],
+    "brands": [
+      "Dior",
+      "MUJI"
+    ],
+    "usages": [
+      "Website"
+    ]
   },
   {
     "name": "Playfair Display",
     "category": "Serif",
-    "url": "https://fonts.google.com/specimen/Playfair+Display"
+    "url": "https://fonts.google.com/specimen/Playfair+Display",
+    "topics": [
+      "Health",
+      "Tech",
+      "Education"
+    ],
+    "brands": [
+      "MUJI"
+    ],
+    "usages": [
+      "Poster"
+    ]
   },
   {
     "name": "EB Garamond",
     "category": "Serif",
-    "url": "https://fonts.google.com/specimen/EB+Garamond?"
+    "url": "https://fonts.google.com/specimen/EB+Garamond?",
+    "topics": [
+      "Food",
+      "Education",
+      "Finance"
+    ],
+    "brands": [
+      "Herseys",
+      "Disney"
+    ],
+    "usages": [
+      "Website",
+      "Poster"
+    ]
   },
   {
     "name": "Crimson Text",
     "category": "Serif",
-    "url": "https://fonts.google.com/specimen/Crimson+Text"
+    "url": "https://fonts.google.com/specimen/Crimson+Text",
+    "topics": [
+      "Tech",
+      "Education"
+    ],
+    "brands": [
+      "duolingo",
+      "Dior"
+    ],
+    "usages": [
+      "Packaging"
+    ]
   },
   {
     "name": "Gilda Display",
     "category": "Serif",
-    "url": "https://fonts.google.com/specimen/Gilda+Display"
+    "url": "https://fonts.google.com/specimen/Gilda+Display",
+    "topics": [
+      "Education",
+      "Finance",
+      "Health"
+    ],
+    "brands": [
+      "Dior"
+    ],
+    "usages": [
+      "Poster",
+      "Packaging",
+      "Magazine"
+    ]
   },
   {
     "name": "Momochidori",
     "category": "Serif",
-    "url": "https://fonts.adobe.com/fonts/momochidori"
+    "url": "https://fonts.adobe.com/fonts/momochidori",
+    "topics": [
+      "Education"
+    ],
+    "brands": [
+      "Disney",
+      "MUJI"
+    ],
+    "usages": [
+      "Website"
+    ]
   },
   {
     "name": "Jenson",
     "category": "Serif",
-    "url": "https://fonts.adobe.com/fonts/adobe-jenson"
+    "url": "https://fonts.adobe.com/fonts/adobe-jenson",
+    "topics": [
+      "Food"
+    ],
+    "brands": [
+      "Dior",
+      "Herseys"
+    ],
+    "usages": [
+      "Packaging",
+      "Application",
+      "Poster"
+    ]
   },
   {
     "name": "Benton Modern Display",
     "category": "Serif",
-    "url": "https://fonts.adobe.com/fonts/benton-modern-display"
+    "url": "https://fonts.adobe.com/fonts/benton-modern-display",
+    "topics": [
+      "Tech"
+    ],
+    "brands": [
+      "duolingo",
+      "MUJI"
+    ],
+    "usages": [
+      "Application",
+      "Website",
+      "Packaging"
+    ]
   },
   {
     "name": "Cormorant",
     "category": "Serif",
-    "url": "https://fonts.adobe.com/fonts/cormorant"
+    "url": "https://fonts.adobe.com/fonts/cormorant",
+    "topics": [
+      "Tech"
+    ],
+    "brands": [
+      "Herseys"
+    ],
+    "usages": [
+      "Magazine",
+      "Packaging",
+      "Application"
+    ]
   },
   {
     "name": "Mestiza",
     "category": "Serif",
-    "url": "https://fonts.adobe.com/fonts/mestiza"
+    "url": "https://fonts.adobe.com/fonts/mestiza",
+    "topics": [
+      "Health",
+      "Tech"
+    ],
+    "brands": [
+      "duolingo"
+    ],
+    "usages": [
+      "Website",
+      "Application",
+      "Poster"
+    ]
   },
   {
     "name": "Mastro",
     "category": "Serif",
-    "url": "https://fonts.adobe.com/fonts/mastro"
+    "url": "https://fonts.adobe.com/fonts/mastro",
+    "topics": [
+      "Finance",
+      "Education"
+    ],
+    "brands": [
+      "IBM"
+    ],
+    "usages": [
+      "Packaging",
+      "Website"
+    ]
   },
   {
     "name": "Anth",
     "category": "Serif",
-    "url": "https://fonts.adobe.com/fonts/anth"
+    "url": "https://fonts.adobe.com/fonts/anth",
+    "topics": [
+      "Finance",
+      "Education"
+    ],
+    "brands": [
+      "Dior",
+      "Disney"
+    ],
+    "usages": [
+      "Application",
+      "Website"
+    ]
   },
   {
     "name": "Maregraphe",
     "category": "Serif",
-    "url": "https://fonts.adobe.com/fonts/maregraphe-variable"
+    "url": "https://fonts.adobe.com/fonts/maregraphe-variable",
+    "topics": [
+      "Health"
+    ],
+    "brands": [
+      "Disney",
+      "duolingo"
+    ],
+    "usages": [
+      "Magazine",
+      "Poster",
+      "Application"
+    ]
   },
   {
     "name": "Meursault",
     "category": "Serif",
-    "url": "https://fonts.adobe.com/fonts/meursault-variable"
+    "url": "https://fonts.adobe.com/fonts/meursault-variable",
+    "topics": [
+      "Health",
+      "Education"
+    ],
+    "brands": [
+      "MUJI"
+    ],
+    "usages": [
+      "Application"
+    ]
   },
   {
     "name": "The Seasons",
     "category": "Serif",
-    "url": "https://fonts.adobe.com/fonts/the-seasons"
+    "url": "https://fonts.adobe.com/fonts/the-seasons",
+    "topics": [
+      "Health",
+      "Education"
+    ],
+    "brands": [
+      "Dior",
+      "duolingo"
+    ],
+    "usages": [
+      "Application",
+      "Packaging"
+    ]
   },
   {
     "name": "Presti Text",
     "category": "Serif",
-    "url": "https://fonts.adobe.com/fonts/presti-text"
+    "url": "https://fonts.adobe.com/fonts/presti-text",
+    "topics": [
+      "Finance",
+      "Education",
+      "Food"
+    ],
+    "brands": [
+      "IBM",
+      "MUJI"
+    ],
+    "usages": [
+      "Application",
+      "Website"
+    ]
   },
   {
     "name": "Begum",
     "category": "Serif",
-    "url": "https://fonts.adobe.com/fonts/begum"
+    "url": "https://fonts.adobe.com/fonts/begum",
+    "topics": [
+      "Education",
+      "Tech",
+      "Health"
+    ],
+    "brands": [
+      "Dior",
+      "duolingo"
+    ],
+    "usages": [
+      "Application",
+      "Packaging"
+    ]
   },
   {
     "name": "Moret",
     "category": "Serif",
-    "url": "https://fonts.adobe.com/fonts/moret-variable"
+    "url": "https://fonts.adobe.com/fonts/moret-variable",
+    "topics": [
+      "Education",
+      "Finance",
+      "Food"
+    ],
+    "brands": [
+      "Dior",
+      "Disney"
+    ],
+    "usages": [
+      "Poster",
+      "Website",
+      "Packaging"
+    ]
   },
   {
     "name": "Lust Didone",
     "category": "Serif",
-    "url": "https://fonts.adobe.com/fonts/lust-didone"
+    "url": "https://fonts.adobe.com/fonts/lust-didone",
+    "topics": [
+      "Education"
+    ],
+    "brands": [
+      "Herseys",
+      "Dior"
+    ],
+    "usages": [
+      "Packaging"
+    ]
   },
   {
     "name": "Fields Display",
     "category": "Serif",
-    "url": "https://fonts.adobe.com/fonts/fields-display"
+    "url": "https://fonts.adobe.com/fonts/fields-display",
+    "topics": [
+      "Health",
+      "Tech"
+    ],
+    "brands": [
+      "duolingo",
+      "Disney"
+    ],
+    "usages": [
+      "Website"
+    ]
   },
   {
     "name": "Tuppence",
     "category": "Serif",
-    "url": "https://fonts.adobe.com/fonts/tuppence-variable"
+    "url": "https://fonts.adobe.com/fonts/tuppence-variable",
+    "topics": [
+      "Tech"
+    ],
+    "brands": [
+      "duolingo"
+    ],
+    "usages": [
+      "Website",
+      "Application"
+    ]
   },
   {
     "name": "Marlide Display",
     "category": "Serif",
-    "url": "https://fonts.adobe.com/fonts/marlide-display-variable"
+    "url": "https://fonts.adobe.com/fonts/marlide-display-variable",
+    "topics": [
+      "Health",
+      "Education"
+    ],
+    "brands": [
+      "Dior"
+    ],
+    "usages": [
+      "Poster",
+      "Website",
+      "Magazine"
+    ]
   },
   {
     "name": "Winsel",
     "category": "Serif",
-    "url": "https://fonts.adobe.com/fonts/winsel-variable"
+    "url": "https://fonts.adobe.com/fonts/winsel-variable",
+    "topics": [
+      "Health"
+    ],
+    "brands": [
+      "MUJI"
+    ],
+    "usages": [
+      "Magazine"
+    ]
   },
   {
     "name": "Yink",
     "category": "Serif",
-    "url": "https://fonts.adobe.com/fonts/yink"
+    "url": "https://fonts.adobe.com/fonts/yink",
+    "topics": [
+      "Education",
+      "Finance"
+    ],
+    "brands": [
+      "Herseys",
+      "Disney"
+    ],
+    "usages": [
+      "Application",
+      "Poster",
+      "Website"
+    ]
   },
   {
     "name": "IvyOra",
     "category": "Serif",
-    "url": "https://fonts.adobe.com/fonts/ivyora"
+    "url": "https://fonts.adobe.com/fonts/ivyora",
+    "topics": [
+      "Food",
+      "Tech"
+    ],
+    "brands": [
+      "MUJI"
+    ],
+    "usages": [
+      "Application",
+      "Website"
+    ]
   },
   {
     "name": "Sigurd",
     "category": "Serif",
-    "url": "https://fonts.adobe.com/fonts/sigurd"
+    "url": "https://fonts.adobe.com/fonts/sigurd",
+    "topics": [
+      "Tech"
+    ],
+    "brands": [
+      "duolingo",
+      "IBM"
+    ],
+    "usages": [
+      "Website",
+      "Poster"
+    ]
   }
 ]
