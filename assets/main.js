@@ -59,7 +59,7 @@ let renderItems = (data) => {
 			<p class="font-link"><a href="${item['url']}" target="_blank">Link</a></p>
 		</li>
 		`;
-		
+
 		containerEl.insertAdjacentHTML('beforeend', itemHtml);
 	});
 };
@@ -87,17 +87,17 @@ let renderItems = (data) => {
 	/* I found this tutorial: https://wisepops.com/blog/html-popup */
 	/* This script helps me understand how to create a popup modal */
 		
-	document.addEventListener('DOMContentLoaded', function(){
+	document.addEventListener('DOMContentLoaded', function() {
 		const popupOverlay =
 		document.getElementById('popupOverlay');
 		const popup = document.getElementById('popup');
 
 		// open
-	function openPopup(){
+	function openPopup() {
 		popupOverlay.style.display = 'block';
 	}
 	// close
-	function closePopupFunc(){
+	function closePopupFunc() {
 		popupOverlay.style.display = 'none';
 	}
 	
