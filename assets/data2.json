@@ -2,7 +2,10 @@
   {
     "name": "Work Sans",
     "category": "sans-serif",
-    "url": "https://fonts.google.com/specimen/Work+Sans"
+    "url": "https://fonts.google.com/specimen/Work+Sans",
+    "topics": ["Health", "Food", "Education"],
+    "brands": ["IBM", "MUJI"],
+    "usages": ["Website", "Application"]
   },
   {
     "name": "Libre Franklin",

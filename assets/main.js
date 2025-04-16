@@ -182,7 +182,13 @@ let renderItems = (data) => {
 
 			document.getElementById('results-container').style.display = 'block';
 
-			renderItems(data);
+			const filteredData = data.filter(item => {
+				return  item.topics?.includes(topic) &&
+						item.brands?.includes(brand) &&
+						item.usages?.includes(usage) ;
+			});
+
+			renderItems(filteredData);
 
 			document.getElementById('results-container').scrollIntoView ({
 				behavior: 'smooth',
