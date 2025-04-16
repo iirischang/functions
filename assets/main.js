@@ -30,44 +30,35 @@ let renderItems = (data) => {
 			fontFamily = 'Crimson Text, san-serif';
 		} else if (item['name'] === 'Gilda Display') {
 			fontFamily = 'Gilda Display, san-serif';
-		} else if (item['name'] === 'Kosugi Maru') {
-			fontFamily = 'Kosugi Maru, san-serif';
-		} else if (item['name'] === '思源黑體') {
-			fontFamily = 'Noto Sans TC, san-serif';
-		} else if (item['name'] === 'ももちどり') {
-			fontFamily = 'Momochidori, san-serif';
-		} else if (item['name'] === 'こすぎ まる') {
-			fontFamily = 'Kosugi Maru, san-serif';
 		} else {
 			fontFamily = 'sans-serif'
 		}
 
 		let itemHtml = `
-		<li>
-			<h3 style="font-family: ${fontFamily};">${item['name']}</h3>
-			<p>${item['category']}</p>
-			<p><a href="${item['url']}" target="_blank">Font Link</a></p>
+		<li class="font-card">
+			<h3 class="font-name" style="font-family: ${fontFamily};">${item['name']}</h3>
+			<p class="font-link"><a href="${item['url']}" target="_blank">Link</a></p>
 		</li>
 		`;
 		containerEl.insertAdjacentHTML('beforeend', itemHtml);
 	});
 };
 
-let filterFonts = (data) => {
-	let selectedCategory = document.querySelector('#category-filter').value;
-	let selectedUsage = document.querySelector('#usage-filter').value;
-	let selectedLanguage = document.querySelector('#language-filter').value;
-	let selectedSource = document.querySelector('#source-filter').value;
+// let filterFonts = (data) => {
+// 	let selectedCategory = document.querySelector('#category-filter').value;
+// 	let selectedUsage = document.querySelector('#usage-filter').value;
+// 	let selectedLanguage = document.querySelector('#language-filter').value;
+// 	let selectedSource = document.querySelector('#source-filter').value;
 
-	let filteredData = data.filter(item => {
-		return (selectedCategory === 'all' || item.category === selectedCategory) &&
-		(selectedUsage === 'all' || item.usage === selectedUsage) && 
-		(selectedLanguage === 'all' || item.language === selectedLanguage) && 
-		(selectedSource === 'all' || item.source === selectedSource);
-	});
+// 	let filteredData = data.filter(item => {
+// 		return (selectedCategory === 'all' || item.category === selectedCategory) &&
+// 		(selectedUsage === 'all' || item.usage === selectedUsage) && 
+// 		(selectedLanguage === 'all' || item.language === selectedLanguage) && 
+// 		(selectedSource === 'all' || item.source === selectedSource);
+// 	});
 
-	renderItems(filteredData);
-};
+// 	renderItems(filteredData);
+// };
 
 
 

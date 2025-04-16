@@ -31,8 +31,11 @@ h3 {
 }
 
 h4 {
-	font-size: 20px;
-	text-align: left;
+	/* margin-left: 20px;
+	margin-right: 20px; */
+	/* margin-top: 15px; */
+	font-size: 30px;
+	text-align: center;
 	padding-bottom: 20px;
 	color:#1c1c1c;
 }
@@ -113,17 +116,6 @@ ul.font-stepper {
 	margin-bottom: 20px;
 }
 
-ul.font-stepper  .form-stepper-circle{
-	position: relative;
-}
-
-ul.form-stepper .form-stepper-circle span {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translateY(-50%) translateX(-50%);
-}
-
 .form-stepper-horizontal {
 	position: relative;
 	display: flex;
@@ -140,6 +132,10 @@ ul.form-stepper .form-stepper-circle span {
 	font-size: 20px;
 	color: #1c1c1c;
 	font-family: 'Funnel Display';
+}
+
+.form-stepper-list .label.muted {
+	color: #c1c1c1;
 }
 
 /* .form-stepper-list:not(:last-child)::after {
@@ -168,6 +164,10 @@ ul.form-stepper .form-stepper-circle span {
 	/* border-radius: 10px; */
 	margin: 5px;
 	font-size: 18px;
+}
+
+.sticky-btn {
+	position: sticky;
 }
 
 /* .option-btn:hover {
@@ -236,6 +236,42 @@ ul.form-stepper .form-stepper-circle span {
 .option-btn.selected {
 	background-color: #1c1c1c;
 	color: #e7e7e7;
+}
+
+
+/* font card */
+.font-card {
+	overflow: hidden;
+	/* margin: 20px; */
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 1.5px solid #1c1c1c;
+	background-color: #1c1c1c;
+}
+
+.font-name {
+	color: #e7e7e7;
+	font-size: 80px;
+	line-height: 78px;
+	/* text-shadow:
+	0.5px 0 0 #e7e7e7,
+	-0.5px  0 0#e7e7e7,
+	0 0.5px 0 #e7e7e7,
+	0 -0.5px 0 #e7e7e7; */
+	padding-bottom: 20px;
+}
+
+.font-category {
+	color: #e7e7e7;
+	font-family: 'Funnel Display';
+	padding-right: 20px;
+}
+
+.font-link {
+	color: #e7e7e7;
+	font-family: 'Funnel Display';
+	padding-right: 10px;
 }
 
 
