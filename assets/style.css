@@ -27,21 +27,21 @@ h2 {
 h3 {
 	font-size: 30px;
 	text-align: left;
-	color:beige;
+	color:#1c1c1c;
 }
 
 h4 {
 	font-size: 20px;
 	text-align: left;
 	padding-bottom: 20px;
-	color:beige;
+	color:#1c1c1c;
 }
 
 p {
 	font-size: 15px;
 	font-family: 'worksans';
 	text-align: right;
-	color:beige;
+	color:#1c1c1c;
 }
 
 label {
@@ -170,7 +170,7 @@ ul.form-stepper .form-stepper-circle span {
 	font-size: 18px;
 }
 
-.option-btn:hover {
+/* .option-btn:hover {
 	background-color: rgb(137, 137, 137);
 }
 
@@ -231,7 +231,7 @@ ul.form-stepper .form-stepper-circle span {
   @font-face {
 	font-family: 'Disney';
 	src: url('../fonts/waltograph42.otf') format('truetype');
-}
+} */
 
 .option-btn.selected {
 	background-color: #1c1c1c;

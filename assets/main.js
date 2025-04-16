@@ -46,10 +46,6 @@ let renderItems = (data) => {
 		<li>
 			<h3 style="font-family: ${fontFamily};">${item['name']}</h3>
 			<p>${item['category']}</p>
-			<p>${item['usage']}</p>
-			<p>${item['language']}</p>
-			<p>${item['source']}</p>
-			<p>${item['weight_option']}</p>
 			<p><a href="${item['url']}" target="_blank">Font Link</a></p>
 		</li>
 		`;
@@ -162,7 +158,7 @@ let filterFonts = (data) => {
 
 
 
-	fetch('assets/data.json')
+	fetch('assets/data2.json')
 		.then(response => response.json())
 		.then(data => {	
 		setupStepOptions('step1-options', 'step1-next', 'selected-topic');
