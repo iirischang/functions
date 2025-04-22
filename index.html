@@ -128,17 +128,27 @@
 	<div id="results-container" style="display: none;">
 		<h4>Here's your type</h4>
 
-		<!-- color picker bg -->
-		<label>Background</label>
-		<input type="text" id="bgColorText" placeholder="#1c1c1c">
-		<input type="color" id="bgColorPicker">
-		<!-- <input type="button" value="Apply" onclick="changeBackgroundColor()"> -->
-
-		<!-- color picker text -->
-		<label>Text</label>
-		<input type="text" id="textColorText" placeholder="#fffff">
-		<input type="color" id="textColorPicker">
-		<!-- <input type="button" value="Apply" onclick="changeTextColor()"> -->
+		<div class="color-picker">
+			<div class="bg-picker">
+				<!-- color picker bg -->
+				<label>Background</label>
+				<div class="color-inputs">
+					<input type="text" id="bgColorText" placeholder="#1c1c1c">
+					<input type="color" id="bgColorPicker">
+					<!-- <input type="button" value="Apply" onclick="changeBackgroundColor()"> -->
+				</div>
+			</div>
+			<!-- color picker text -->
+			<div class="text-picker">
+				<label>Text</label>
+				<div class="color-inputs">
+				<input type="text" id="textColorText" placeholder="#fffff">
+				<input type="color" id="textColorPicker">
+				<!-- <input type="button" value="Apply" onclick="changeTextColor()"> -->
+			</div>
+		</div>
+		<button id="resetColorBtn" class="resetbutton">Reset Colors</button>
+	</div>
 
 		<ul id="font-list"></ul>
 		<div class="mt-3">

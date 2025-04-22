@@ -250,7 +250,7 @@ let renderItems = (data) => {
 
 /* Moreover, I wanted the color can change when previewing */
 /* I found this tutorial: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/color */
-/* This script helps me make the preview color work */
+/* This script helps me make the preview color work. */
 
 
 	function applyBackgroundColor(color) {
@@ -303,3 +303,17 @@ let renderItems = (data) => {
 		applyTextColor(color);
 	})
 
+	// reset button
+
+	document.getElementById('resetColorBtn').addEventListener('click', function() {
+		const defaultBgColor = '#1c1c1c';
+		const defaultTextColor = '#ffffff';
+
+		document.getElementById('bgColorText').value = defaultBgColor;
+		document.getElementById('bgColorPicker').value = defaultBgColor;
+		document.getElementById('textColorText').value = defaultTextColor;
+		document.getElementById('textColorPicker').value = defaultTextColor;
+
+		applyBackgroundColor(defaultBgColor);
+		applyTextColor(defaultTextColor);
+	});
