@@ -5,14 +5,14 @@ const supportedFonts = [
 	"pressio", "jali-latin-variable", "itc-avant-garde-gothic", "brisbane", "effra-cc",
 	"venn", "asterisk-sans-variable", "config-variable", "vina-sans", "hatch-sans",
 	"climate-crisis-variable", "cerulya-cf", "kit", "neulis-sans", "Playfair Display",
-	"EB Garamond", "Crimson Text", "Gilda Display", "momochidori", "adobe-jenson",
+	"EB Garamond", "Crimson Text", "Gilda Display", "momochidori",
 	"benton-modern-display", "cormorant", "mestiza", "mastro", "anth",
 	"maregraphe-variable", "meursault-variable", "the-seasons", "presti-text", "begum",
 	"moret-variable", "lust-didone", "fields-display", "tuppence-variable", "marlide-display-variable",
-	"winsel-variable", "yink", "ivyora", "sigurd", "sayer-interview-mn",
+	"winsel-variable", "yink", "ivyora-display", "sigurd", "sayer-interview-mn",
 	"new-science", "hepta-slab", "lone-pine", "enra-slab-variable", "clarendon-wide-sketch",
 	"Alfa Slab One", "Shrikhand", "Outfit", "totalblack-variable", "omnes-variable",
-	"ojuju", "citrine-variable", "scale-variable", "Hanken", "fredoka-variable",
+	"Ojuju", "citrine-variable", "scale-variable", "Hanken Grotesk", "fredoka-variable",
 	"amplitude", "filicudi", "area-variable", "reross"
   ];
 

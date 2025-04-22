@@ -213,7 +213,7 @@
     "brands": "['MUJI', 'Google']",
     "usages": "['Website', 'Packaging', 'Magazine']",
     "url": "https://fonts.google.com/specimen/Crimson+Text",
-    "cssName": "crimson-text"
+    "cssName": "Crimson Text"
   },
   {
     "name": "Gilda Display",
@@ -221,7 +221,7 @@
     "brands": "['IKEA', 'Dior', 'Google']",
     "usages": "['Packaging', 'Magazine', 'Poster']",
     "url": "https://fonts.google.com/specimen/Gilda+Display",
-    "cssName": "gilda-display"
+    "cssName": "Gilda Display"
   },
   {
     "name": "Momochidori",
@@ -230,14 +230,6 @@
     "usages": "['Packaging', 'Magazine', 'Website', 'Poster']",
     "url": "https://fonts.adobe.com/fonts/momochidori",
     "cssName": "momochidori"
-  },
-  {
-    "name": "Jenson",
-    "topics": "['Tech', 'Education', 'Health']",
-    "brands": "['Google']",
-    "usages": "['Packaging', 'Application', 'Magazine', 'Poster']",
-    "url": "https://fonts.adobe.com/fonts/adobe-jenson",
-    "cssName": "adobe-jenson"
   },
   {
     "name": "Benton Modern Display",
@@ -269,7 +261,7 @@
     "brands": "['MUJI', 'Spotify', 'Google']",
     "usages": "['Packaging', 'Magazine', 'Website', 'Poster']",
     "url": "https://fonts.adobe.com/fonts/mastro",
-    "cssName": "mastro"
+    "cssName": "mastro-display"
   },
   {
     "name": "Anth",
@@ -381,7 +373,7 @@
     "brands": "['Disney', 'Google']",
     "usages": "['Website', 'Application', 'Magazine', 'Poster']",
     "url": "https://fonts.adobe.com/fonts/ivyora",
-    "cssName": "ivyora"
+    "cssName": "ivyora-display"
   },
   {
     "name": "Sigurd",
@@ -461,7 +453,7 @@
     "brands": "['Spotify', 'Google']",
     "usages": "['Website', 'Packaging', 'Application', 'Magazine', 'Poster']",
     "url": "https://fonts.google.com/specimen/Outfit",
-    "cssName": "outfit"
+    "cssName": "Outfit"
   },
   {
     "name": "TotalBlack",
@@ -484,8 +476,8 @@
     "topics": "['Education', 'Health', 'Tech', 'Finance']",
     "brands": "['duolingo', 'Google']",
     "usages": "['Website', 'Packaging', 'Application', 'Magazine', 'Poster']",
-    "url": "https://fonts.adobe.com/fonts/ojuju",
-    "cssName": "ojuju"
+    "url": "https://fonts.google.com/specimen/Ojuju?",
+    "cssName": "Ojuju"
   },
   {
     "name": "Citrine",
@@ -504,12 +496,12 @@
     "cssName": "scale-variable"
   },
   {
-    "name": "Hanken",
+    "name": "Hanken Grotesk",
     "topics": "['Finance', 'Health']",
     "brands": "['Dior', 'Google']",
     "usages": "['Website', 'Packaging', 'Application', 'Magazine', 'Poster']",
     "url": "https://fonts.google.com/specimen/Hanken+Grotesk",
-    "cssName": "hanken"
+    "cssName": "Hanken Grotesk"
   },
   {
     "name": "Fredoka",
