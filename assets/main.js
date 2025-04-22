@@ -16,38 +16,6 @@ let renderItems = (data) => {
 	let containerEl = document.querySelector('#font-list');
 	containerEl.innerHTML = '';
 
-	// data.forEach(item => {
-	// 	let fontFamily;
-	// 	if (item['name'] === 'Work Sans') {
-	// 		fontFamily = 'Work Sans, san-serif';
-	// 	} else if (item['name'] === 'Libre Franklin') {
-	// 		fontFamily = 'Libre Franklin, san-serif';
-	// 	} else if (item['name'] === 'Rubik') {
-	// 		fontFamily = 'Rubik, san-serif';
-	// 	} else if (item['name'] === 'DM Sans') {
-	// 		fontFamily = 'DM Sans, san-serif';
-	// 	} else if (item['name'] === 'Mulish') {
-	// 		fontFamily = 'Mulish, san-serif';
-	// 	} else if (item['name'] === 'Barlow') {
-	// 		fontFamily = 'Barlow, san-serif';
-	// 	} else if (item['name'] === 'Karla') {
-	// 		fontFamily = 'Karla, san-serif';
-	// 	} else if (item['name'] === 'Manrope') {
-	// 		fontFamily = 'Manrope, san-serif';
-	// 	} else if (item['name'] === 'Chivo') {
-	// 		fontFamily = 'Chivo, san-serif';
-	// 	} else if (item['name'] === 'Playfair Display') {
-	// 		fontFamily = 'Playfair Display, san-serif';
-	// 	} else if (item['name'] === 'EB Garamond') {
-	// 		fontFamily = 'EB Garamond, san-serif';
-	// 	} else if (item['name'] === 'Crimson Text') {
-	// 		fontFamily = 'Crimson Text, san-serif';
-	// 	} else if (item['name'] === 'Gilda Display') {
-	// 		fontFamily = 'Gilda Display, san-serif';
-	// 	} else {
-	// 		fontFamily = 'sans-serif'
-	// 	}
-
 	data.forEach(item => {
 		const fontFamily = supportedFonts.includes(item.name)
 		? `${item.name}, sans-serif`
