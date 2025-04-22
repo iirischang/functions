@@ -1,19 +1,19 @@
 
 const supportedFonts = [
-	"work-sans", "libre-franklin", "rubik", "dm-sans", "mulish",
-	"barlow", "karla", "manrope", "chivo", "kensington",
-	"pressio", "jali-latin", "itc-avant-garde-gothic", "brisbane", "effra-cc",
-	"venn", "asterisk-sans", "config", "vina-sans", "hatch-sans",
-	"climate-crisis", "cerulya-cf", "kit", "neulis-sans", "playfair-display",
-	"eb-garamond", "crimson-text", "gilda-display", "momochidori", "adobe-jenson",
+	"Work Sans", "Libre Franklin", "Rubik", "DM Sans", "Mulish",
+	"Barlow", "Karla", "Manrope", "Chivo", "kensington",
+	"pressio", "jali-latin-variable", "itc-avant-garde-gothic", "brisbane", "effra-cc",
+	"venn", "asterisk-sans-variable", "config-variable", "vina-sans", "hatch-sans",
+	"climate-crisis-variable", "cerulya-cf", "kit", "neulis-sans", "Playfair Display",
+	"EB Garamond", "Crimson Text", "Gilda Display", "momochidori", "adobe-jenson",
 	"benton-modern-display", "cormorant", "mestiza", "mastro", "anth",
-	"maregraphe", "meursault", "the-seasons", "presti-text", "begum",
-	"moret", "lust-didone", "fields-display", "tuppence", "marlide-display",
-	"winsel", "yink", "ivyora", "sigurd", "sayer-interview-mn",
-	"new-science", "hepta-slab", "lone-pine", "enra-slab", "clarendon-wide-sketch",
-	"alfa-slab-one", "shrikhand", "outfit", "totalblack", "omnes",
-	"ojuju", "citrine", "scale", "hanken", "fredoka",
-	"amplitude", "filicudi", "area", "reross"
+	"maregraphe-variable", "meursault-variable", "the-seasons", "presti-text", "begum",
+	"moret-variable", "lust-didone", "fields-display", "tuppence-variable", "marlide-display-variable",
+	"winsel-variable", "yink", "ivyora", "sigurd", "sayer-interview-mn",
+	"new-science", "hepta-slab", "lone-pine", "enra-slab-variable", "clarendon-wide-sketch",
+	"Alfa Slab One", "Shrikhand", "Outfit", "totalblack-variable", "omnes-variable",
+	"ojuju", "citrine-variable", "scale-variable", "Hanken", "fredoka-variable",
+	"amplitude", "filicudi", "area-variable", "reross"
   ];
 
 let renderItems = (data) => {

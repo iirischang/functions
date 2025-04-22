@@ -5,7 +5,7 @@
     "brands": "['Google', 'Disney', 'MUJI']",
     "usages": "['Packaging', 'Application', 'Magazine', 'Website', 'Poster']",
     "url": "https://fonts.google.com/specimen/Work+Sans",
-    "cssName": "work-sans"
+    "cssName": "Work Sans"
   },
   {
     "name": "Libre Franklin",
@@ -13,7 +13,7 @@
     "brands": "['Dior', 'Google']",
     "usages": "['Packaging', 'Magazine', 'Website', 'Poster']",
     "url": "https://fonts.google.com/specimen/Libre+Franklin",
-    "cssName": "libre-franklin"
+    "cssName": "Libre Franklin"
   },
   {
     "name": "Rubik",
@@ -21,7 +21,7 @@
     "brands": "['Google']",
     "usages": "['Website', 'Packaging', 'Magazine', 'Poster']",
     "url": "https://fonts.google.com/specimen/Rubik",
-    "cssName": "rubik"
+    "cssName": "Rubik"
   },
   {
     "name": "DM Sans",
@@ -29,7 +29,7 @@
     "brands": "['MUJI']",
     "usages": "['Packaging', 'Application']",
     "url": "https://fonts.google.com/specimen/DM+Sans",
-    "cssName": "dm-sans"
+    "cssName": "DM Sans"
   },
   {
     "name": "Mulish",
@@ -37,7 +37,7 @@
     "brands": "['Dior', 'MUJI', 'Google']",
     "usages": "['Packaging', 'Website', 'Poster']",
     "url": "https://fonts.google.com/specimen/Mulish",
-    "cssName": "mulish"
+    "cssName": "Mulish"
   },
   {
     "name": "Barlow",
@@ -45,7 +45,7 @@
     "brands": "['Dior', 'MUJI', 'Google']",
     "usages": "['Application', 'Magazine', 'Website', 'Poster']",
     "url": "https://fonts.google.com/specimen/Barlow",
-    "cssName": "barlow"
+    "cssName": "Barlow"
   },
   {
     "name": "Karla",
@@ -53,7 +53,7 @@
     "brands": "['Google', 'MUJI']",
     "usages": "['Website', 'Packaging', 'Application']",
     "url": "https://fonts.google.com/specimen/Karla",
-    "cssName": "karla"
+    "cssName": "Karla"
   },
   {
     "name": "Manrope",
@@ -61,7 +61,7 @@
     "brands": "['Dior', 'Google']",
     "usages": "['Application', 'Website', 'Poster']",
     "url": "https://fonts.google.com/specimen/Manrope",
-    "cssName": "manrope"
+    "cssName": "Manrope"
   },
   {
     "name": "Chivo",
@@ -69,7 +69,7 @@
     "brands": "['Google']",
     "usages": "['Application', 'Magazine', 'Website', 'Poster']",
     "url": "https://fonts.google.com/specimen/Chivo",
-    "cssName": "chivo"
+    "cssName": "Chivo"
   },
   {
     "name": "Kensington",
@@ -93,7 +93,7 @@
     "brands": "['duolingo', 'Dior', 'Google']",
     "usages": "['Packaging', 'Website']",
     "url": "https://fonts.adobe.com/fonts/jali-latin-variable",
-    "cssName": "jali-latin"
+    "cssName": "jali-latin-variable"
   },
   {
     "name": "Avant Garde",
@@ -133,7 +133,7 @@
     "brands": "['Google', 'IKEA', 'MUJI']",
     "usages": "['Packaging', 'Magazine', 'Poster']",
     "url": "https://fonts.adobe.com/fonts/asterisk-sans-variable",
-    "cssName": "asterisk-sans"
+    "cssName": "asterisk-sans-variable"
   },
   {
     "name": "Config",
@@ -141,7 +141,7 @@
     "brands": "['IKEA', 'duolingo', 'Google']",
     "usages": "['Application', 'Magazine', 'Website', 'Poster']",
     "url": "https://fonts.adobe.com/fonts/config-variable",
-    "cssName": "config"
+    "cssName": "config-variable"
   },
   {
     "name": "Vina Sans",
@@ -165,7 +165,7 @@
     "brands": "['Dior', 'Disney', 'Google']",
     "usages": "['Packaging', 'Application', 'Magazine', 'Website', 'Poster']",
     "url": "https://fonts.adobe.com/fonts/climate-crisis-variable",
-    "cssName": "climate-crisis"
+    "cssName": "climate-crisis-variable"
   },
   {
     "name": "Cerulya CF",
@@ -197,7 +197,7 @@
     "brands": "['duolingo', 'Dior', 'Spotify']",
     "usages": "['Website', 'Packaging', 'Application', 'Poster']",
     "url": "https://fonts.google.com/specimen/Playfair+Display",
-    "cssName": "playfair-display"
+    "cssName": "Playfair Display"
   },
   {
     "name": "EB Garamond",
@@ -285,7 +285,7 @@
     "brands": "['Google']",
     "usages": "['Application', 'Magazine', 'Poster']",
     "url": "https://fonts.adobe.com/fonts/maregraphe-variable",
-    "cssName": "maregraphe"
+    "cssName": "maregraphe-variable"
   },
   {
     "name": "Meursault",
@@ -293,7 +293,7 @@
     "brands": "['Google']",
     "usages": "['Application', 'Magazine', 'Website']",
     "url": "https://fonts.adobe.com/fonts/meursault-variable",
-    "cssName": "meursault"
+    "cssName": "meursault-variable"
   },
   {
     "name": "The Seasons",
@@ -325,7 +325,7 @@
     "brands": "['IKEA', 'Spotify', 'Google']",
     "usages": "['Packaging', 'Application', 'Website', 'Poster']",
     "url": "https://fonts.adobe.com/fonts/moret-variable",
-    "cssName": "moret"
+    "cssName": "moret-variable"
   },
   {
     "name": "Lust Didone",
@@ -349,7 +349,7 @@
     "brands": "['Disney', 'Spotify', 'Google']",
     "usages": "['Application', 'Website']",
     "url": "https://fonts.adobe.com/fonts/tuppence-variable",
-    "cssName": "tuppence"
+    "cssName": "tuppence-variable"
   },
   {
     "name": "Marlide Display",
@@ -357,7 +357,7 @@
     "brands": "['IKEA', 'Dior', 'Google']",
     "usages": "['Packaging', 'Application', 'Magazine', 'Website', 'Poster']",
     "url": "https://fonts.adobe.com/fonts/marlide-display-variable",
-    "cssName": "marlide-display"
+    "cssName": "marlide-display-variable"
   },
   {
     "name": "Winsel",
@@ -365,7 +365,7 @@
     "brands": "['Disney', 'Google']",
     "usages": "['Application', 'Magazine', 'Poster']",
     "url": "https://fonts.adobe.com/fonts/winsel-variable",
-    "cssName": "winsel"
+    "cssName": "winsel-variable"
   },
   {
     "name": "Yink",
@@ -429,7 +429,7 @@
     "brands": "['IKEA', 'duolingo']",
     "usages": "['Website', 'Packaging', 'Application', 'Magazine', 'Poster']",
     "url": "https://fonts.adobe.com/fonts/enra-slab-variable",
-    "cssName": "enra-slab"
+    "cssName": "enra-slab-variable"
   },
   {
     "name": "Clarendon Wide Sketch",
@@ -469,7 +469,7 @@
     "brands": "['IKEA', 'duolingo', 'Spotify']",
     "usages": "['Website', 'Packaging', 'Application', 'Magazine', 'Poster']",
     "url": "https://fonts.adobe.com/fonts/totalblack-variable",
-    "cssName": "totalblack"
+    "cssName": "totalblack-variable"
   },
   {
     "name": "Omnes",
@@ -477,7 +477,7 @@
     "brands": "['Google']",
     "usages": "['Website', 'Packaging', 'Application', 'Magazine', 'Poster']",
     "url": "https://fonts.adobe.com/fonts/omnes-variable",
-    "cssName": "omnes"
+    "cssName": "omnes-variable"
   },
   {
     "name": "Ojuju",
@@ -493,7 +493,7 @@
     "brands": "['Disney', 'Google']",
     "usages": "['Website', 'Packaging', 'Application', 'Magazine', 'Poster']",
     "url": "https://fonts.adobe.com/fonts/citrine-variable",
-    "cssName": "citrine"
+    "cssName": "citrine-variable"
   },
   {
     "name": "Scale",
@@ -501,7 +501,7 @@
     "brands": "['Google']",
     "usages": "['Website', 'Packaging', 'Application', 'Magazine', 'Poster']",
     "url": "https://fonts.adobe.com/fonts/scale-variable",
-    "cssName": "scale"
+    "cssName": "scale-variable"
   },
   {
     "name": "Hanken",
@@ -517,7 +517,7 @@
     "brands": "['IKEA', 'duolingo']",
     "usages": "['Website', 'Packaging', 'Application', 'Magazine', 'Poster']",
     "url": "https://fonts.adobe.com/fonts/fredoka-variable",
-    "cssName": "fredoka"
+    "cssName": "fredoka-variable"
   },
   {
     "name": "Amplitude",
@@ -541,7 +541,7 @@
     "brands": "['Google', 'MUJI']",
     "usages": "['Website', 'Packaging', 'Application', 'Magazine', 'Poster']",
     "url": "https://fonts.adobe.com/fonts/area-variable",
-    "cssName": "area"
+    "cssName": "area-variable"
   },
   {
     "name": "Reross",
