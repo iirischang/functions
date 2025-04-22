@@ -240,3 +240,66 @@ let renderItems = (data) => {
 			});
 		});
 	}
+
+
+// color picker
+
+/* I wanted to create color pickers when browsing the font list */
+/* I found this tutorial: https://www.youtube.com/watch?v=DP9-CVgkgDA */
+/* This script helps me know how to create a color picker. */
+
+/* Moreover, I wanted the color can change when previewing */
+/* I found this tutorial: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/color */
+/* This script helps me make the preview color work */
+
+
+	function applyBackgroundColor(color) {
+		// let color = document.getElementById('bgColorPicker').value;
+		// document.getElementById('bgColorText').value = color;
+
+		const cards = document.querySelectorAll('.font-card');
+		cards.forEach(card => {
+			card.style.backgroundColor = color;
+		});
+
+	}
+
+	function applyTextColor(color) {
+		// let color = document.getElementById('textColorPicker').value;
+		// document.getElementById('textColorText').value = color;
+
+		const names = document.querySelectorAll('.font-name');
+		names.forEach(name => {
+			name.style.color = color;
+		});
+
+	}
+
+	// bg color change
+
+	document.getElementById('bgColorPicker').addEventListener('input', function(e) {
+		const color = e.target.value;
+		document.getElementById('bgColorText').value = color;
+		applyBackgroundColor(color);
+	});
+
+	document.getElementById('bgColorText').addEventListener('input', function(e) {
+		const color = e.target.value;
+		document.getElementById('bgColorPicker').value = color;
+		applyBackgroundColor(color);
+	});
+
+	// text color change
+
+	document.getElementById('textColorPicker').addEventListener('input', function(e) {
+		const color = e.target.value;
+		document.getElementById('textColorText').value = color;
+		applyTextColor(color);
+	});
+
+	document.getElementById('textColorText').addEventListener('input', function(e) {
+		const color = e.target.value;
+		document.getElementById('textColorPicker').value = color;
+		applyTextColor(color);
+	})
+
