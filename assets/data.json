@@ -1,173 +1,485 @@
 [
   {
     "name": "Work Sans",
-    "category": "sans-serif",
-    "usage": "commercial use",
-    "language": "eng",
-    "source": "Google Fonts",
-    "weight_option": "Thin, ExtraLight, Light, \nRegular, Medium, SemiBold, \nBold, ExtraBold, Black",
+    "topics": "['Food', 'Education', 'Health']",
+    "brands": "['Google', 'Disney', 'MUJI']",
+    "usages": "['Packaging', 'Application', 'Magazine', 'Website', 'Poster']",
     "url": "https://fonts.google.com/specimen/Work+Sans"
   },
   {
     "name": "Libre Franklin",
-    "category": "sans-serif",
-    "usage": "commercial use",
-    "language": "eng",
-    "source": "Google Fonts",
-    "weight_option": "Thin, ExtraLight, Light, \nRegular, Medium, SemiBold, \nBold, ExtraBold, Black",
+    "topics": "['Finance', 'Education', 'Food', 'Health']",
+    "brands": "['Dior', 'Google']",
+    "usages": "['Packaging', 'Magazine', 'Website', 'Poster']",
     "url": "https://fonts.google.com/specimen/Libre+Franklin"
   },
   {
     "name": "Rubik",
-    "category": "sans-serif",
-    "usage": "commercial use",
-    "language": "eng",
-    "source": "Google Fonts",
-    "weight_option": "Light, Regular, Medium, \nSemiBold, Bold, ExtraBold, \nBlack",
+    "topics": "['Finance', 'Health', 'Food', 'Education']",
+    "brands": "['Google']",
+    "usages": "['Website', 'Packaging', 'Magazine', 'Poster']",
     "url": "https://fonts.google.com/specimen/Rubik"
   },
   {
     "name": "DM Sans",
-    "category": "sans-serif",
-    "usage": "commercial use",
-    "language": "eng",
-    "source": "Google Fonts",
-    "weight_option": "Thin, ExtraLight, Light, \nRegular, Medium, SemiBold, \nBold, ExtraBold, Black",
+    "topics": "['Food', 'Education', 'Finance']",
+    "brands": "['MUJI']",
+    "usages": "['Packaging', 'Application']",
     "url": "https://fonts.google.com/specimen/DM+Sans"
   },
   {
     "name": "Mulish",
-    "category": "sans-serif",
-    "usage": "commercial use",
-    "language": "eng",
-    "source": "Google Fonts",
-    "weight_option": "Thin, ExtraLight, Light, \nRegular, Medium, SemiBold, \nBold, ExtraBold, Black",
+    "topics": "['Education', 'Food', 'Tech']",
+    "brands": "['Dior', 'MUJI', 'Google']",
+    "usages": "['Packaging', 'Website', 'Poster']",
     "url": "https://fonts.google.com/specimen/Mulish"
   },
   {
     "name": "Barlow",
-    "category": "sans-serif",
-    "usage": "commercial use",
-    "language": "eng",
-    "source": "Google Fonts",
-    "weight_option": "Thin, ExtraLight, Light, \nRegular, Medium, SemiBold, \nBold, ExtraBold, Black",
+    "topics": "['Finance', 'Health', 'Education']",
+    "brands": "['Dior', 'MUJI', 'Google']",
+    "usages": "['Application', 'Magazine', 'Website', 'Poster']",
     "url": "https://fonts.google.com/specimen/Barlow"
   },
   {
     "name": "Karla",
-    "category": "sans-serif",
-    "usage": "commercial use",
-    "language": "eng",
-    "source": "Google Fonts",
-    "weight_option": "Thin, ExtraLight, Light, \nRegular, Medium, SemiBold, \nBold, ExtraBold, Black",
+    "topics": "['Education', 'Finance', 'Tech', 'Food']",
+    "brands": "['Google', 'MUJI']",
+    "usages": "['Website', 'Packaging', 'Application']",
     "url": "https://fonts.google.com/specimen/Karla"
   },
   {
     "name": "Manrope",
-    "category": "sans-serif",
-    "usage": "commercial use",
-    "language": "eng",
-    "source": "Google Fonts",
-    "weight_option": "Thin, ExtraLight, Light, \nRegular, Medium, SemiBold, \nBold, ExtraBold, Black",
+    "topics": "['Tech', 'Food']",
+    "brands": "['Dior', 'Google']",
+    "usages": "['Application', 'Website', 'Poster']",
     "url": "https://fonts.google.com/specimen/Manrope"
   },
   {
     "name": "Chivo",
-    "category": "sans-serif",
-    "usage": "commercial use",
-    "language": "eng",
-    "source": "Google Fonts",
-    "weight_option": "Thin, ExtraLight, Light, \nRegular, Medium, SemiBold, \nBold, ExtraBold, Black",
+    "topics": "['Education', 'Health', 'Finance', 'Tech']",
+    "brands": "['Google']",
+    "usages": "['Application', 'Magazine', 'Website', 'Poster']",
     "url": "https://fonts.google.com/specimen/Chivo"
   },
   {
+    "name": "Kensington",
+    "topics": "['Health', 'Education', 'Food', 'Finance']",
+    "brands": "['duolingo', 'Spotify', 'Google']",
+    "usages": "['Packaging', 'Application', 'Magazine']",
+    "url": "https://fonts.adobe.com/fonts/kensington"
+  },
+  {
+    "name": "Pressio",
+    "topics": "['Finance', 'Health']",
+    "brands": "['duolingo', 'Dior', 'Google']",
+    "usages": "['Website', 'Packaging', 'Magazine', 'Poster']",
+    "url": "https://fonts.adobe.com/fonts/pressio"
+  },
+  {
+    "name": "Jali",
+    "topics": "['Finance', 'Tech', 'Health']",
+    "brands": "['duolingo', 'Dior', 'Google']",
+    "usages": "['Packaging', 'Website']",
+    "url": "https://fonts.adobe.com/fonts/jali-latin-variable"
+  },
+  {
+    "name": "Avant Garde",
+    "topics": "['Health', 'Finance']",
+    "brands": "['IKEA', 'Google']",
+    "usages": "['Website', 'Application', 'Magazine']",
+    "url": "https://fonts.adobe.com/fonts/itc-avant-garde-gothic"
+  },
+  {
+    "name": "Brisbane",
+    "topics": "['Food', 'Finance']",
+    "brands": "['Google']",
+    "usages": "['Application', 'Magazine', 'Website', 'Poster']",
+    "url": "https://fonts.adobe.com/fonts/brisbane"
+  },
+  {
+    "name": "Effra",
+    "topics": "['Food', 'Education', 'Tech']",
+    "brands": "['IKEA', 'Google']",
+    "usages": "['Magazine', 'Poster']",
+    "url": "https://fonts.adobe.com/fonts/effra-cc"
+  },
+  {
+    "name": "Venn",
+    "topics": "['Tech', 'Finance', 'Food']",
+    "brands": "['Google']",
+    "usages": "['Packaging', 'Magazine', 'Poster']",
+    "url": "https://fonts.adobe.com/fonts/venn"
+  },
+  {
+    "name": "Asterisk Sans",
+    "topics": "['Education', 'Tech', 'Health']",
+    "brands": "['Google', 'IKEA', 'MUJI']",
+    "usages": "['Packaging', 'Magazine', 'Poster']",
+    "url": "https://fonts.adobe.com/fonts/asterisk-sans-variable"
+  },
+  {
+    "name": "Config",
+    "topics": "['Health', 'Finance']",
+    "brands": "['IKEA', 'duolingo', 'Google']",
+    "usages": "['Application', 'Magazine', 'Website', 'Poster']",
+    "url": "https://fonts.adobe.com/fonts/config-variable"
+  },
+  {
+    "name": "Vina Sans",
+    "topics": "['Finance', 'Education', 'Health']",
+    "brands": "['Dior', 'Disney', 'MUJI']",
+    "usages": "['Application', 'Magazine', 'Website', 'Poster']",
+    "url": "https://fonts.adobe.com/fonts/vina-sans"
+  },
+  {
+    "name": "Hatch Sans",
+    "topics": "['Finance', 'Health', 'Tech']",
+    "brands": "['IKEA', 'MUJI']",
+    "usages": "['Website', 'Application', 'Magazine']",
+    "url": "https://fonts.adobe.com/fonts/hatch-sans"
+  },
+  {
+    "name": "Climate Crisis",
+    "topics": "['Tech', 'Food', 'Health']",
+    "brands": "['Dior', 'Disney', 'Google']",
+    "usages": "['Packaging', 'Application', 'Magazine', 'Website', 'Poster']",
+    "url": "https://fonts.adobe.com/fonts/climate-crisis-variable"
+  },
+  {
+    "name": "Cerulya CF",
+    "topics": "['Tech', 'Food', 'Health', 'Education']",
+    "brands": "['duolingo', 'Disney', 'Dior']",
+    "usages": "['Application', 'Magazine', 'Website', 'Poster']",
+    "url": "https://fonts.adobe.com/fonts/cerulya-cf"
+  },
+  {
+    "name": "Kit",
+    "topics": "['Tech', 'Food']",
+    "brands": "['Dior', 'MUJI']",
+    "usages": "['Packaging', 'Application', 'Magazine', 'Poster']",
+    "url": "https://fonts.adobe.com/fonts/kit"
+  },
+  {
+    "name": "Neulis Sans",
+    "topics": "['Finance', 'Health']",
+    "brands": "['duolingo', 'Dior', 'MUJI']",
+    "usages": "['Packaging', 'Website', 'Poster']",
+    "url": "https://fonts.adobe.com/fonts/neulis-sans"
+  },
+  {
     "name": "Playfair Display",
-    "category": "serif",
-    "usage": "commercial use",
-    "language": "eng",
-    "source": "Google Fonts",
-    "weight_option": "Regular, Medium, SemiBold, \nBold, ExtraBold, Black",
+    "topics": "['Tech', 'Food', 'Finance', 'Health']",
+    "brands": "['duolingo', 'Dior', 'Spotify']",
+    "usages": "['Website', 'Packaging', 'Application', 'Poster']",
     "url": "https://fonts.google.com/specimen/Playfair+Display"
   },
   {
     "name": "EB Garamond",
-    "category": "serif",
-    "usage": "commercial use",
-    "language": "eng",
-    "source": "Google Fonts",
-    "weight_option": "Regular, Medium, SemiBold, \nBold, ExtraBold",
+    "topics": "['Tech', 'Education', 'Food', 'Finance']",
+    "brands": "['Dior']",
+    "usages": "['Website', 'Application', 'Poster']",
     "url": "https://fonts.google.com/specimen/EB+Garamond?"
   },
   {
     "name": "Crimson Text",
-    "category": "serif",
-    "usage": "commercial use",
-    "language": "eng",
-    "source": "Google Fonts",
-    "weight_option": "Regular,SemiBold, Bold",
+    "topics": "['Tech', 'Finance', 'Health', 'Education']",
+    "brands": "['MUJI', 'Google']",
+    "usages": "['Website', 'Packaging', 'Magazine']",
     "url": "https://fonts.google.com/specimen/Crimson+Text"
   },
   {
     "name": "Gilda Display",
-    "category": "serif",
-    "usage": "commercial use",
-    "language": "eng",
-    "source": "Google Fonts",
-    "weight_option": "Regular",
+    "topics": "['Health', 'Tech']",
+    "brands": "['IKEA', 'Dior', 'Google']",
+    "usages": "['Packaging', 'Magazine', 'Poster']",
     "url": "https://fonts.google.com/specimen/Gilda+Display"
   },
   {
-    "name": "ももちどり",
-    "category": "serif",
-    "usage": "commercial use",
-    "language": "jap",
-    "source": "Adobe Fonts",
-    "weight_option": "ExtraLight, Regular, Medium, \nSemiBold, Bold, Heavy",
+    "name": "Momochidori",
+    "topics": "['Tech', 'Health']",
+    "brands": "['Disney']",
+    "usages": "['Packaging', 'Magazine', 'Website', 'Poster']",
     "url": "https://fonts.adobe.com/fonts/momochidori"
   },
   {
-    "name": "こすぎ まる",
-    "category": "sans-serif",
-    "usage": "commercial use",
-    "language": "jap",
-    "source": "Google Fonts, Adobe Fonts",
-    "weight_option": "Regular",
-    "url": "https://fonts.adobe.com/fonts/kosugi-maru"
+    "name": "Jenson",
+    "topics": "['Tech', 'Education', 'Health']",
+    "brands": "['Google']",
+    "usages": "['Packaging', 'Application', 'Magazine', 'Poster']",
+    "url": "https://fonts.adobe.com/fonts/adobe-jenson"
   },
   {
-    "name": "MizoletBokutoh",
-    "category": "sans-serif",
-    "usage": "commercial use",
-    "language": "jap",
-    "source": "Adobe Fonts",
-    "weight_option": "Regular",
-    "url": "https://fonts.adobe.com/fonts/mizoletbokutoh"
+    "name": "Benton Modern Display",
+    "topics": "['Education', 'Food', 'Health', 'Tech']",
+    "brands": "['Dior', 'Disney']",
+    "usages": "['Packaging', 'Application', 'Website', 'Poster']",
+    "url": "https://fonts.adobe.com/fonts/benton-modern-display"
   },
   {
-    "name": "Chocolate Classical Sans",
-    "category": "sans-serif",
-    "usage": "commercial use",
-    "language": "man",
-    "source": "Google Fonts, Adobe Fonts",
-    "weight_option": "Regular",
-    "url": "https://fonts.adobe.com/fonts/chocolate-classical-sans"
+    "name": "Cormorant",
+    "topics": "['Health', 'Food', 'Education']",
+    "brands": "['MUJI', 'Google']",
+    "usages": "['Packaging', 'Application', 'Magazine', 'Poster']",
+    "url": "https://fonts.adobe.com/fonts/cormorant"
   },
   {
-    "name": "思源黑體",
-    "category": "sans-serif",
-    "usage": "commercial use",
-    "language": "man",
-    "source": "Google Fonts, Adobe Fonts",
-    "weight_option": "Thin, ExtraLight, Light, \nRegular, Medium, SemiBold, \nBold, ExtraBold, Black",
-    "url": "https://fonts.google.com/noto/specimen/Noto+Sans+TC"
+    "name": "Mestiza",
+    "topics": "['Health', 'Education', 'Tech']",
+    "brands": "['duolingo', 'MUJI', 'Google']",
+    "usages": "['Packaging', 'Application', 'Magazine', 'Website', 'Poster']",
+    "url": "https://fonts.adobe.com/fonts/mestiza"
   },
   {
-    "name": "AR UDJingXiHeiB5",
-    "category": "sans-serif",
-    "usage": "commercial use",
-    "language": "man",
-    "source": "Adobe Fonts",
-    "weight_option": "Regular",
-    "url": "https://fonts.adobe.com/fonts/ar-udjingxiheib5pro"
+    "name": "Mastro",
+    "topics": "['Tech', 'Education']",
+    "brands": "['MUJI', 'Spotify', 'Google']",
+    "usages": "['Packaging', 'Magazine', 'Website', 'Poster']",
+    "url": "https://fonts.adobe.com/fonts/mastro"
+  },
+  {
+    "name": "Anth",
+    "topics": "['Education', 'Tech', 'Food']",
+    "brands": "['Disney', 'Google']",
+    "usages": "['Packaging', 'Application', 'Magazine', 'Website', 'Poster']",
+    "url": "https://fonts.adobe.com/fonts/anth"
+  },
+  {
+    "name": "Maregraphe",
+    "topics": "['Tech', 'Food']",
+    "brands": "['Google']",
+    "usages": "['Application', 'Magazine', 'Poster']",
+    "url": "https://fonts.adobe.com/fonts/maregraphe-variable"
+  },
+  {
+    "name": "Meursault",
+    "topics": "['Education', 'Tech', 'Food', 'Finance']",
+    "brands": "['Google']",
+    "usages": "['Application', 'Magazine', 'Website']",
+    "url": "https://fonts.adobe.com/fonts/meursault-variable"
+  },
+  {
+    "name": "The Seasons",
+    "topics": "['Health', 'Education', 'Food']",
+    "brands": "['Dior', 'duolingo', 'Google']",
+    "usages": "['Packaging', 'Application']",
+    "url": "https://fonts.adobe.com/fonts/the-seasons"
+  },
+  {
+    "name": "Presti Text",
+    "topics": "['Education', 'Food']",
+    "brands": "['Disney', 'Spotify', 'Google']",
+    "usages": "['Application', 'Magazine', 'Website', 'Poster']",
+    "url": "https://fonts.adobe.com/fonts/presti-text"
+  },
+  {
+    "name": "Begum",
+    "topics": "['Tech', 'Food', 'Finance', 'Health']",
+    "brands": "['IKEA', 'Dior', 'Google']",
+    "usages": "['Packaging', 'Application', 'Magazine', 'Poster']",
+    "url": "https://fonts.adobe.com/fonts/begum"
+  },
+  {
+    "name": "Moret",
+    "topics": "['Finance', 'Education', 'Health']",
+    "brands": "['IKEA', 'Spotify', 'Google']",
+    "usages": "['Packaging', 'Application', 'Website', 'Poster']",
+    "url": "https://fonts.adobe.com/fonts/moret-variable"
+  },
+  {
+    "name": "Lust Didone",
+    "topics": "['Food', 'Tech', 'Education']",
+    "brands": "['Dior']",
+    "usages": "['Packaging', 'Application', 'Magazine']",
+    "url": "https://fonts.adobe.com/fonts/lust-didone"
+  },
+  {
+    "name": "Fields Display",
+    "topics": "['Tech', 'Finance']",
+    "brands": "['Dior', 'Disney']",
+    "usages": "['Website', 'Packaging', 'Application']",
+    "url": "https://fonts.adobe.com/fonts/fields-display"
+  },
+  {
+    "name": "Tuppence",
+    "topics": "['Education', 'Tech']",
+    "brands": "['Disney', 'Spotify', 'Google']",
+    "usages": "['Application', 'Website']",
+    "url": "https://fonts.adobe.com/fonts/tuppence-variable"
+  },
+  {
+    "name": "Marlide Display",
+    "topics": "['Finance', 'Tech']",
+    "brands": "['IKEA', 'Dior', 'Google']",
+    "usages": "['Packaging', 'Application', 'Magazine', 'Website', 'Poster']",
+    "url": "https://fonts.adobe.com/fonts/marlide-display-variable"
+  },
+  {
+    "name": "Winsel",
+    "topics": "['Food', 'Education', 'Tech', 'Health']",
+    "brands": "['Disney', 'Google']",
+    "usages": "['Application', 'Magazine', 'Poster']",
+    "url": "https://fonts.adobe.com/fonts/winsel-variable"
+  },
+  {
+    "name": "Yink",
+    "topics": "['Food', 'Tech', 'Health']",
+    "brands": "['Disney', 'Dior']",
+    "usages": "['Application', 'Magazine', 'Website', 'Poster']",
+    "url": "https://fonts.adobe.com/fonts/yink"
+  },
+  {
+    "name": "IvyOra",
+    "topics": "['Health', 'Food', 'Tech']",
+    "brands": "['Disney', 'Google']",
+    "usages": "['Website', 'Application', 'Magazine', 'Poster']",
+    "url": "https://fonts.adobe.com/fonts/ivyora"
+  },
+  {
+    "name": "Sigurd",
+    "topics": "['Health', 'Education']",
+    "brands": "['Google']",
+    "usages": "['Magazine', 'Website', 'Poster']",
+    "url": "https://fonts.adobe.com/fonts/sigurd"
+  },
+  {
+    "name": "Sayer Interview",
+    "topics": "['Education', 'Food']",
+    "brands": "['Google']",
+    "usages": "['Website', 'Packaging', 'Application', 'Magazine', 'Poster']",
+    "url": "https://fonts.adobe.com/fonts/sayer-interview-mn"
+  },
+  {
+    "name": "New Science",
+    "topics": "['Tech', 'Health', 'Food']",
+    "brands": "['Google']",
+    "usages": "['Website', 'Packaging', 'Application', 'Magazine', 'Poster']",
+    "url": "https://fonts.adobe.com/fonts/new-science"
+  },
+  {
+    "name": "Hepta Slab",
+    "topics": "['Food', 'Tech', 'Education', 'Finance']",
+    "brands": "['IKEA']",
+    "usages": "['Website', 'Packaging', 'Application', 'Magazine', 'Poster']",
+    "url": "https://fonts.adobe.com/fonts/hepta-slab"
+  },
+  {
+    "name": "Lone Pine",
+    "topics": "['Tech', 'Education']",
+    "brands": "['Google']",
+    "usages": "['Website', 'Packaging', 'Application', 'Magazine', 'Poster']",
+    "url": "https://fonts.adobe.com/fonts/lone-pine"
+  },
+  {
+    "name": "Enra Slab",
+    "topics": "['Health', 'Education', 'Tech', 'Food']",
+    "brands": "['IKEA', 'duolingo']",
+    "usages": "['Website', 'Packaging', 'Application', 'Magazine', 'Poster']",
+    "url": "https://fonts.adobe.com/fonts/enra-slab-variable"
+  },
+  {
+    "name": "Clarendon Wide Sketch",
+    "topics": "['Education', 'Tech', 'Health', 'Finance']",
+    "brands": "['IKEA']",
+    "usages": "['Website', 'Packaging', 'Application', 'Magazine', 'Poster']",
+    "url": "https://fonts.adobe.com/fonts/clarendon-wide-sketch"
+  },
+  {
+    "name": "Alfa Slab One",
+    "topics": "['Finance', 'Health']",
+    "brands": "['IKEA']",
+    "usages": "['Website', 'Packaging', 'Application', 'Magazine', 'Poster']",
+    "url": "https://fonts.google.com/specimen/Alfa+Slab+One"
+  },
+  {
+    "name": "Shrikhand",
+    "topics": "['Education', 'Food']",
+    "brands": "['Dior', 'duolingo', 'Google']",
+    "usages": "['Website', 'Packaging', 'Application', 'Magazine', 'Poster']",
+    "url": "https://fonts.google.com/specimen/Shrikhand"
+  },
+  {
+    "name": "Outfit",
+    "topics": "['Education', 'Tech', 'Food']",
+    "brands": "['Spotify', 'Google']",
+    "usages": "['Website', 'Packaging', 'Application', 'Magazine', 'Poster']",
+    "url": "https://fonts.google.com/specimen/Outfit"
+  },
+  {
+    "name": "TotalBlack",
+    "topics": "['Finance', 'Education', 'Health', 'Food']",
+    "brands": "['IKEA', 'duolingo', 'Spotify']",
+    "usages": "['Website', 'Packaging', 'Application', 'Magazine', 'Poster']",
+    "url": "https://fonts.adobe.com/fonts/totalblack-variable"
+  },
+  {
+    "name": "Omnes",
+    "topics": "['Education', 'Health']",
+    "brands": "['Google']",
+    "usages": "['Website', 'Packaging', 'Application', 'Magazine', 'Poster']",
+    "url": "https://fonts.adobe.com/fonts/omnes-variable"
+  },
+  {
+    "name": "Ojuju",
+    "topics": "['Education', 'Health', 'Tech', 'Finance']",
+    "brands": "['duolingo', 'Google']",
+    "usages": "['Website', 'Packaging', 'Application', 'Magazine', 'Poster']",
+    "url": "https://fonts.adobe.com/fonts/ojuju"
+  },
+  {
+    "name": "Citrine",
+    "topics": "['Tech', 'Health', 'Food']",
+    "brands": "['Disney', 'Google']",
+    "usages": "['Website', 'Packaging', 'Application', 'Magazine', 'Poster']",
+    "url": "https://fonts.adobe.com/fonts/citrine-variable"
+  },
+  {
+    "name": "Scale",
+    "topics": "['Food', 'Education', 'Health', 'Tech']",
+    "brands": "['Google']",
+    "usages": "['Website', 'Packaging', 'Application', 'Magazine', 'Poster']",
+    "url": "https://fonts.adobe.com/fonts/scale-variable"
+  },
+  {
+    "name": "Hanken",
+    "topics": "['Finance', 'Health']",
+    "brands": "['Dior', 'Google']",
+    "usages": "['Website', 'Packaging', 'Application', 'Magazine', 'Poster']",
+    "url": "https://fonts.google.com/specimen/Hanken+Grotesk"
+  },
+  {
+    "name": "Fredoka",
+    "topics": "['Finance', 'Education', 'Tech', 'Health']",
+    "brands": "['IKEA', 'duolingo']",
+    "usages": "['Website', 'Packaging', 'Application', 'Magazine', 'Poster']",
+    "url": "https://fonts.adobe.com/fonts/fredoka-variable"
+  },
+  {
+    "name": "Amplitude",
+    "topics": "['Education', 'Health', 'Tech', 'Finance']",
+    "brands": "['duolingo', 'Dior', 'Spotify']",
+    "usages": "['Website', 'Packaging', 'Application', 'Magazine', 'Poster']",
+    "url": "https://fonts.adobe.com/fonts/amplitude"
+  },
+  {
+    "name": "Filicudi",
+    "topics": "['Finance', 'Tech', 'Food', 'Health']",
+    "brands": "['Disney', 'Spotify', 'Google']",
+    "usages": "['Website', 'Packaging', 'Application', 'Magazine', 'Poster']",
+    "url": "https://fonts.adobe.com/fonts/filicudi"
+  },
+  {
+    "name": "Area",
+    "topics": "['Finance', 'Education', 'Health']",
+    "brands": "['Google', 'MUJI']",
+    "usages": "['Website', 'Packaging', 'Application', 'Magazine', 'Poster']",
+    "url": "https://fonts.adobe.com/fonts/area-variable"
+  },
+  {
+    "name": "Reross",
+    "topics": "['Food', 'Tech', 'Finance']",
+    "brands": "['IKEA', 'duolingo', 'Google']",
+    "usages": "['Website', 'Packaging', 'Application', 'Magazine', 'Poster']",
+    "url": "https://fonts.adobe.com/fonts/reross"
   }
 ]

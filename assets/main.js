@@ -1,24 +1,28 @@
 
 const supportedFonts = [
-	"Work Sans", "Libre Franklin", "Rubik", "DM Sans", "Mulish", "Barlow",
-	"Karla", "Manrope", "Chivo", "Kensington", "Pressio", "Jali",
-	"Avant Garde", "Brisbane", "Effra", "Venn", "Asterisk Sans",
-	"Config", "Vina Sans", "Hatch Sans", "Climate Crisis", "Cerulya CF",
-	"Kit", "Neulis Sans", "Playfair Display", "EB Garamond",
-	"Crimson Text", "Gilda Display", "Momochidori", "Jenson",
-	"Benton Modern Display", "Cormorant", "Mestiza", "Mastro",
-	"Anth", "Maregraphe", "Meursault", "The Seasons", "Presti Text",
-	"Begum", "Moret", "Lust Didone", "Fields Display", "Tuppence",
-	"Marlide Display", "Winsel", "Yink", "IvyOra", "Sigurd"
-	];
+	"work-sans", "libre-franklin", "rubik", "dm-sans", "mulish",
+	"barlow", "karla", "manrope", "chivo", "kensington",
+	"pressio", "jali-latin", "itc-avant-garde-gothic", "brisbane", "effra-cc",
+	"venn", "asterisk-sans", "config", "vina-sans", "hatch-sans",
+	"climate-crisis", "cerulya-cf", "kit", "neulis-sans", "playfair-display",
+	"eb-garamond", "crimson-text", "gilda-display", "momochidori", "adobe-jenson",
+	"benton-modern-display", "cormorant", "mestiza", "mastro", "anth",
+	"maregraphe", "meursault", "the-seasons", "presti-text", "begum",
+	"moret", "lust-didone", "fields-display", "tuppence", "marlide-display",
+	"winsel", "yink", "ivyora", "sigurd", "sayer-interview-mn",
+	"new-science", "hepta-slab", "lone-pine", "enra-slab", "clarendon-wide-sketch",
+	"alfa-slab-one", "shrikhand", "outfit", "totalblack", "omnes",
+	"ojuju", "citrine", "scale", "hanken", "fredoka",
+	"amplitude", "filicudi", "area", "reross"
+  ];
 
 let renderItems = (data) => {
 	let containerEl = document.querySelector('#font-list');
 	containerEl.innerHTML = '';
 
 	data.forEach(item => {
-		const fontFamily = supportedFonts.includes(item.name)
-		? `${item.name}, sans-serif`
+		const fontFamily = supportedFonts.includes(item.cssName)
+		? `${item.cssName}, sans-serif`
 		:"sans-serif";
 
 		let itemHtml = `
