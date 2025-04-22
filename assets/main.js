@@ -317,3 +317,20 @@ let renderItems = (data) => {
 		applyBackgroundColor(defaultBgColor);
 		applyTextColor(defaultTextColor);
 	});
+
+
+
+
+	// font slider
+
+	document.getElementById("slider").addEventListener("input", function () {
+		const size = this.value;
+		document.getElementById("fontSizeValue").textContent = size;
+	
+		const fontNames = document.querySelectorAll(".font-name");
+		fontNames.forEach(el => {
+			el.style.fontSize = size + "px";
+			el.style.lineHeight = size * 1 + "px";
+		});
+	});
+	
