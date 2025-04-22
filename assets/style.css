@@ -167,9 +167,19 @@ ul.font-stepper {
 	font-size: 18px;
 }
 
-.sticky-btn {
-	position: sticky;
+.fixed-bottom {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: #c3c3c3;
+	z-index: 100;
+	padding: 1px 0;
+	text-align: center;
+	display: none;
+	font-size: 15px;
 }
+
 
 /* .option-btn:hover {
 	background-color: rgb(137, 137, 137);
@@ -378,6 +388,14 @@ ul.font-stepper {
 	margin-bottom: 10px;
 }
 
+#restart-btn {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#font-list {
+	padding-bottom: 50px;
+}
 
 /* font slider */
 	/* I wanted to create font slider */

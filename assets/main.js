@@ -182,6 +182,27 @@ let renderItems = (data) => {
 
 			renderItems(filteredData);
 
+			// fixed-button
+			setTimeout(() => {
+				const targetCard = document.querySelectorAll('.font-card')[2];
+				const bottomBtn = document.querySelector('.fixed-bottom');
+
+				if (targetCard && bottomBtn) {
+					let showObserver = new IntersectionObserver((entries) => {
+						let [entry] = entries;
+
+						if(entry.isIntersecting) {
+							bottomBtn.style.display = 'block';
+							showObserver.disconnect();
+						}
+					}, {
+						rootMargin: '0px 0px -90% 0px'
+					});	
+					showObserver.observe(targetCard);
+				}
+			}, 100);
+	
+
 			document.getElementById('results-container').scrollIntoView ({
 				behavior: 'smooth',
 				block: 'start'
@@ -205,6 +226,8 @@ let renderItems = (data) => {
 		document.getElementById('step3-btn').disabled = true;
 
 		document.getElementById('results-container').style.display = 'none';
+
+		document.querySelector('#font-list').innerHTML = '';
 
 		navigateToFormStep(1);
 		});
