@@ -305,9 +305,10 @@ let renderItems = (data) => {
 
 	// reset button
 
-	document.getElementById('resetColorBtn').addEventListener('click', function() {
+	document.getElementById('resetBtn').addEventListener('click', function() {
 		const defaultBgColor = '#1c1c1c';
 		const defaultTextColor = '#ffffff';
+		const defaultFontSize = 80;
 
 		document.getElementById('bgColorText').value = defaultBgColor;
 		document.getElementById('bgColorPicker').value = defaultBgColor;
@@ -316,16 +317,22 @@ let renderItems = (data) => {
 
 		applyBackgroundColor(defaultBgColor);
 		applyTextColor(defaultTextColor);
+
+		document.getElementById('slider').value = defaultFontSize;
+		document.getElementById('fontSizeValue').textContent = defaultFontSize + 'pt';
+
+		document.querySelectorAll('.font-name').forEach(el => {
+			el.style.fontSize = defaultFontSize + "px";
+			el.style.lineHeight = defaultFontSize * 1 + "px";
+		});
 	});
-
-
 
 
 	// font slider
 
 	document.getElementById("slider").addEventListener("input", function () {
 		const size = this.value;
-		document.getElementById("fontSizeValue").textContent = size;
+		document.getElementById("fontSizeValue").textContent = size + 'pt';
 	
 		const fontNames = document.querySelectorAll(".font-name");
 		fontNames.forEach(el => {

@@ -338,8 +338,8 @@ ul.font-stepper {
 .bg-picker label,
 .text-picker label {
 	margin-left: 10px;
-	font-size: 20px;
-	font-weight: 500;
+	font-size: 18px;
+	/* font-weight: 500; */
 	min-width: 120px;
 	text-align: start;
 }
@@ -366,16 +366,17 @@ ul.font-stepper {
 	cursor: pointer;
 }
 
-#resetColorBtn {
+#resetBtn {
+	font-size: 16px;
+	width: 350px;
+	padding: 12px 30px;
 	color: #1c1c1c;
 	border: 1px solid #ccc;
-	border-radius: 0;
-	margin-top: 5px;
-	margin-left: 10px;
-	margin-right: 10px;
-	padding: 10px;
+	background-color: #f0f0f0;
+	cursor: pointer;
+	margin-top: -30px;
+	margin-bottom: 10px;
 }
-
 
 
 /* font slider */
@@ -417,20 +418,22 @@ input[type=range]::-webkit-slider-thumb {
 .font-size-slider {
 	margin: 20px 10px;
 	font-size: 14px;
+	padding: 0;
 }
 
-.slider-label-row {
+
+.slider-row {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	font-size: 18px;
 }
 
-.slider-label {
+.slider-title {
 	color: #1c1c1c;
 }
 
-.slider-value {
+.slider-number {
 	color: #1c1c1c;
 }
 
