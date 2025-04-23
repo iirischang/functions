@@ -67,6 +67,7 @@ let renderItems = (data) => {
 			});
 	
 	openPopup();
+	navigateToFormStep(1);
 	
 	closePopup.addEventListener('click', closePopupFunc);
 	popupOverlay.addEventListener('click', function(event){
@@ -133,7 +134,7 @@ let renderItems = (data) => {
 
 		document.querySelectorAll(".form-stepper-list").forEach((stepEl, index) => {
 			const label = stepEl.querySelector(".label");
-			if (index + 1 === stepNumber) {
+			if (index + 1 <= stepNumber) {
 				label.classList.remove("muted");
 			} else {
 				label.classList.add("muted");

@@ -590,4 +590,42 @@ a {
 	max: 150;
 }
 
+/* progress bar */
+.form-stepper-horizontal {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 60%;
+	margin: 40px auto;
+}
+
+.form-stepper-list {
+	position: relative;
+	flex: 0 1 auto;
+	text-align: center;
+	color: #c1c1c1;
+	font-weight: 400;
+}
+
+.form-stepper-list:not(:last-child)::after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	margin-left: 20px;
+	width: 200px;
+	height: 2px;
+	transform: translateY(-50%);
+	z-index: 0;
+	background-color: #c1c1c1;
+}
+
+.form-stepper-list.form-stepper-completed:not(:last-child)::after {
+	background-color: #1c1c1c;
+}
+
+.form-stepper-list .label {
+	color: #1c1c1c;
+}
+
+
 }
