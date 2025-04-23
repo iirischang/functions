@@ -72,7 +72,16 @@ let renderItems = (data) => {
 	function closePopupFunc() {
 		popupOverlay.style.display = 'none';
 	}
-		document.getElementById('diveBtn').addEventListener('click', closePopupFunc);
+		document.getElementById('diveBtn').addEventListener('click', () => {
+			closePopupFunc();
+			navigateToFormStep(1);
+			setTimeout(() => {
+				const firstQuestion = document.querySelector('#step-1 h2');
+				if (firstQuestion) {
+				  firstQuestion.scrollIntoView({ behavior: 'smooth' });
+				}
+			  }, 200);
+			});
 	
 	openPopup();
 	
