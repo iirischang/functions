@@ -10,7 +10,7 @@
   {
     "name": "Libre Franklin",
     "topics": "['Finance', 'Education', 'Food', 'Health']",
-    "brands": "['Dior', 'Google']",
+    "brands": "['Google']",
     "usages": "['Packaging', 'Magazine', 'Website', 'Poster']",
     "url": "https://fonts.google.com/specimen/Libre+Franklin",
     "cssName": "Libre Franklin"
@@ -34,7 +34,7 @@
   {
     "name": "Mulish",
     "topics": "['Education', 'Food', 'Tech']",
-    "brands": "['Dior', 'MUJI', 'Google']",
+    "brands": "['MUJI', 'Google']",
     "usages": "['Packaging', 'Website', 'Poster']",
     "url": "https://fonts.google.com/specimen/Mulish",
     "cssName": "Mulish"
@@ -42,7 +42,7 @@
   {
     "name": "Barlow",
     "topics": "['Finance', 'Health', 'Education']",
-    "brands": "['Dior', 'MUJI', 'Google']",
+    "brands": "['MUJI', 'Google']",
     "usages": "['Application', 'Magazine', 'Website', 'Poster']",
     "url": "https://fonts.google.com/specimen/Barlow",
     "cssName": "Barlow"
@@ -58,7 +58,7 @@
   {
     "name": "Manrope",
     "topics": "['Tech', 'Food']",
-    "brands": "['Dior', 'Google']",
+    "brands": "['Google']",
     "usages": "['Application', 'Website', 'Poster']",
     "url": "https://fonts.google.com/specimen/Manrope",
     "cssName": "Manrope"
@@ -82,7 +82,7 @@
   {
     "name": "Pressio",
     "topics": "['Finance', 'Health']",
-    "brands": "['duolingo', 'Dior', 'Google']",
+    "brands": "['duolingo', 'Google']",
     "usages": "['Website', 'Packaging', 'Magazine', 'Poster']",
     "url": "https://fonts.adobe.com/fonts/pressio",
     "cssName": "pressio"
@@ -90,7 +90,7 @@
   {
     "name": "Jali",
     "topics": "['Finance', 'Tech', 'Health']",
-    "brands": "['duolingo', 'Dior', 'Google']",
+    "brands": "['duolingo', 'Google']",
     "usages": "['Packaging', 'Website']",
     "url": "https://fonts.adobe.com/fonts/jali-latin-variable",
     "cssName": "jali-latin-variable"
@@ -146,7 +146,7 @@
   {
     "name": "Vina Sans",
     "topics": "['Finance', 'Education', 'Health']",
-    "brands": "['Dior', 'Disney', 'MUJI']",
+    "brands": "['Disney', 'MUJI']",
     "usages": "['Application', 'Magazine', 'Website', 'Poster']",
     "url": "https://fonts.adobe.com/fonts/vina-sans",
     "cssName": "vina-sans"
@@ -162,7 +162,7 @@
   {
     "name": "Climate Crisis",
     "topics": "['Tech', 'Food', 'Health']",
-    "brands": "['Dior', 'Disney', 'Google']",
+    "brands": "['Disney', 'Google']",
     "usages": "['Packaging', 'Application', 'Magazine', 'Website', 'Poster']",
     "url": "https://fonts.adobe.com/fonts/climate-crisis-variable",
     "cssName": "climate-crisis-variable"
@@ -170,7 +170,7 @@
   {
     "name": "Cerulya CF",
     "topics": "['Tech', 'Food', 'Health', 'Education']",
-    "brands": "['duolingo', 'Disney', 'Dior']",
+    "brands": "['duolingo', 'Disney']",
     "usages": "['Application', 'Magazine', 'Website', 'Poster']",
     "url": "https://fonts.adobe.com/fonts/cerulya-cf",
     "cssName": "cerulya-cf"
@@ -178,15 +178,15 @@
   {
     "name": "Kit",
     "topics": "['Tech', 'Food']",
-    "brands": "['Dior', 'MUJI']",
+    "brands": "['MUJI']",
     "usages": "['Packaging', 'Application', 'Magazine', 'Poster']",
     "url": "https://fonts.adobe.com/fonts/kit",
-    "cssName": "kit"
+    "cssName": "kit-rounded"
   },
   {
     "name": "Neulis Sans",
     "topics": "['Finance', 'Health']",
-    "brands": "['duolingo', 'Dior', 'MUJI']",
+    "brands": "['duolingo', 'MUJI']",
     "usages": "['Packaging', 'Website', 'Poster']",
     "url": "https://fonts.adobe.com/fonts/neulis-sans",
     "cssName": "neulis-sans"
@@ -290,7 +290,7 @@
   {
     "name": "The Seasons",
     "topics": "['Health', 'Education', 'Food']",
-    "brands": "['Dior', 'duolingo', 'Google']",
+    "brands": "['duolingo', 'Google']",
     "usages": "['Packaging', 'Application']",
     "url": "https://fonts.adobe.com/fonts/the-seasons",
     "cssName": "the-seasons"
@@ -362,7 +362,7 @@
   {
     "name": "Yink",
     "topics": "['Food', 'Tech', 'Health']",
-    "brands": "['Disney', 'Dior']",
+    "brands": "['Disney']",
     "usages": "['Application', 'Magazine', 'Website', 'Poster']",
     "url": "https://fonts.adobe.com/fonts/yink",
     "cssName": "yink"
@@ -442,7 +442,7 @@
   {
     "name": "Shrikhand",
     "topics": "['Education', 'Food']",
-    "brands": "['Dior', 'duolingo', 'Google']",
+    "brands": "['duolingo', 'Google']",
     "usages": "['Website', 'Packaging', 'Application', 'Magazine', 'Poster']",
     "url": "https://fonts.google.com/specimen/Shrikhand",
     "cssName": "Shrikhand"
@@ -498,7 +498,7 @@
   {
     "name": "Hanken Grotesk",
     "topics": "['Finance', 'Health']",
-    "brands": "['Dior', 'Google']",
+    "brands": "['Google']",
     "usages": "['Website', 'Packaging', 'Application', 'Magazine', 'Poster']",
     "url": "https://fonts.google.com/specimen/Hanken+Grotesk",
     "cssName": "Hanken Grotesk"
@@ -514,7 +514,7 @@
   {
     "name": "Amplitude",
     "topics": "['Education', 'Health', 'Tech', 'Finance']",
-    "brands": "['duolingo', 'Dior', 'Spotify']",
+    "brands": "['duolingo', 'Spotify']",
     "usages": "['Website', 'Packaging', 'Application', 'Magazine', 'Poster']",
     "url": "https://fonts.adobe.com/fonts/amplitude",
     "cssName": "amplitude"
