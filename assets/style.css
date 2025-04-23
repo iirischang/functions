@@ -8,12 +8,21 @@ body {
 }
 
 h1 {
-	font-size: 46px;
+	font-size: 45px;
 	margin-bottom: 30px;
 	text-align: center;
 	color:#1c1c1c;
 	
 }
+
+/* #flip-word {
+	font-size: 35px;
+	color: #1c1c1c;
+	display: inline-block;
+	animation: fontChange 1.5s infinite;
+} */
+
+
 
 h2 {
 	margin-left: 20px;

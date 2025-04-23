@@ -445,7 +445,7 @@
     "brands": "['Dior', 'duolingo', 'Google']",
     "usages": "['Website', 'Packaging', 'Application', 'Magazine', 'Poster']",
     "url": "https://fonts.google.com/specimen/Shrikhand",
-    "cssName": "shrikhand"
+    "cssName": "Shrikhand"
   },
   {
     "name": "Outfit",
@@ -525,7 +525,7 @@
     "brands": "['Disney', 'Spotify', 'Google']",
     "usages": "['Website', 'Packaging', 'Application', 'Magazine', 'Poster']",
     "url": "https://fonts.adobe.com/fonts/filicudi",
-    "cssName": "filicudi"
+    "cssName": "filicudi-solid"
   },
   {
     "name": "Area",

@@ -13,7 +13,7 @@ const supportedFonts = [
 	"new-science", "hepta-slab", "lone-pine", "enra-slab-variable", "clarendon-wide-sketch",
 	"Alfa Slab One", "Shrikhand", "Outfit", "totalblack-variable", "omnes-variable",
 	"Ojuju", "citrine-variable", "scale-variable", "Hanken Grotesk", "fredoka-variable",
-	"amplitude", "filicudi", "area-variable", "reross"
+	"amplitude", "filicudi-solid", "area-variable", "reross"
   ];
 
 let renderItems = (data) => {
