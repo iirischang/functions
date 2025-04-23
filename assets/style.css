@@ -295,12 +295,12 @@ ul.font-stepper {
 	justify-content: space-between;
 	align-items: center;
 	gap: 20px;
-	margin-right: 10px;
+	margin-right: 15px;
 }
 
 .bg-picker label,
 .text-picker label {
-	margin-left: 10px;
+	margin-left: 15px;
 	font-size: 18px;
 	/* font-weight: 500; */
 	min-width: 120px;
@@ -387,7 +387,7 @@ input[type=range]::-webkit-slider-thumb {
 
 
 .font-size-slider {
-	margin: 20px 10px;
+	margin: 20px 15px;
 	font-size: 14px;
 	padding: 0;
 }
