@@ -144,15 +144,27 @@ let renderItems = (data) => {
 				document.getElementById('results-container').style.display = 'none';
 			} else if (formSubmitted && stepNumber === 3) {
 				document.getElementById('results-container').style.display = 'block';
-			}
 			
-			};
+			// reload filter
+				const topic = document.getElementById('selected-topic').value;
+				const brand = document.getElementById('selected-brand').value;
+				const usage = document.getElementById('selected-usage').value;
+
+				const filteredData = window.fullFontData.filter(item =>
+					item.topics?.includes(topic) &&
+					item.brands?.includes(brand) &&
+					item.usages?.includes(usage)
+				);
+				renderItems(filteredData);
+			}
+		}
 
 
 
 	fetch('assets/data2.json')
 		.then(response => response.json())
 		.then(data => {	
+		window.fullFontData = data;
 		setupStepOptions('step1-options', 'step1-next', 'selected-topic');
 		setupStepOptions('step2-options', 'step2-next', 'selected-brand');
 		setupStepOptions('step3-options', 'step3-btn', 'selected-usage');
@@ -228,6 +240,8 @@ let renderItems = (data) => {
 		document.getElementById('results-container').style.display = 'none';
 
 		document.querySelector('#font-list').innerHTML = '';
+
+		document.querySelector('.fixed-bottom').style.display = 'none';
 
 		navigateToFormStep(1);
 		});
@@ -331,7 +345,7 @@ let renderItems = (data) => {
 	document.getElementById('resetBtn').addEventListener('click', function() {
 		const defaultBgColor = '#1c1c1c';
 		const defaultTextColor = '#ffffff';
-		const defaultFontSize = 80;
+		const defaultFontSize = 60;
 
 		document.getElementById('bgColorText').value = defaultBgColor;
 		document.getElementById('bgColorPicker').value = defaultBgColor;
