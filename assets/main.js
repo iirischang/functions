@@ -244,7 +244,7 @@ let renderItems = (data) => {
 							showObserver.disconnect();
 						}
 					}, {
-						rootMargin: '0px 0px -90% 0px'
+						rootMargin: '0px 0px -30% 0px'
 					});	
 					showObserver.observe(targetCard);
 				}
