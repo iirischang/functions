@@ -82,6 +82,15 @@ let renderItems = (data) => {
 		}
 	});
 	});
+
+	// progress click
+	document.querySelectorAll('.form-step-label').forEach(label => {
+		label.addEventListener('click', () => {
+			const step = parseInt(label.getAttribute('data-step'));
+			navigateToFormStep(step);
+		});
+	});
+	
 	
 
 
