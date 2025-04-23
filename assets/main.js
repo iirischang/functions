@@ -183,6 +183,22 @@ let renderItems = (data) => {
 		document.querySelectorAll(".btn-navigate-form-step").forEach((formNavigationBtn) => {
 			formNavigationBtn.addEventListener("click", () => {
 				const stepNumber = parseInt(formNavigationBtn.getAttribute("step_number"));
+
+/* I wanted to have an alert if no answer is select */
+/* I found this question post: https://stackoverflow.com/questions/28394198/how-to-make-function-validation-alert-if-not-selected*/
+/* This script helps me created the alert. */
+
+			let valid = true;
+
+			if (stepNumber === 2 && !document.getElementById("selected-topic").value) {
+				alert("Pick one topic first!");
+				valid = false;
+			} else if (stepNumber === 3 && !document.getElementById("selected-brand").value) {
+				alert("Pick a Party Parter First!");
+				valid = false;
+			}
+			if (!valid) return;
+
 				navigateToFormStep(stepNumber);
 			});
 		});
@@ -197,7 +213,7 @@ let renderItems = (data) => {
 
 			document.getElementById('results-container').style.display = 'block';
 
-			const filteredData = data.filter(item => {
+			const filteredData = window.fullFontData.filter(item => {
 				return  item.topics?.includes(topic) &&
 						item.brands?.includes(brand) &&
 						item.usages?.includes(usage) ;
