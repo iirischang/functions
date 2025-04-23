@@ -1,3 +1,4 @@
+/* variables */
 :root {
 	/* color */
 	--light-gray: #e7e7e7;
@@ -135,6 +136,7 @@ li {
 	display: none;
 }
 
+/* form steps */
 .form-step {
 	color: black;
 	padding: 10px;
@@ -171,7 +173,7 @@ ul.font-stepper {
 	color: #c1c1c1;
 }
 
-
+/* options */
 
 .option-buttons {
 	display: flex;
@@ -280,6 +282,8 @@ ul.font-stepper {
 	color: var(--blue);
 }
 
+/* color picker */
+
 .color-picker {
 	display: flex;
 	flex-direction: column;
@@ -329,6 +333,7 @@ ul.font-stepper {
 	padding: 0;
 }
 
+/* reset */
 #resetBtn {
 	font-size: 16px;
 	width: 350px;
@@ -340,6 +345,7 @@ ul.font-stepper {
 	margin-bottom: 10px;
 }
 
+/* not my type */
 #restart-btn {
 	margin-top: 0;
 	margin-bottom: 0;
