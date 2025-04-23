@@ -1,11 +1,12 @@
 body {
-	background-color: #e7e7e7;
+	background-color: #f1f1f1;
 	font-family: "avenir-lt-pro";
 	text-align: center;
 	overflow-x: hidden;
 }
 
 h1 {
+	margin-top: 10px;
 	font-size: 70px;
 	text-align: center;
 	color:#1c1c1c;
@@ -240,7 +241,17 @@ ul.font-stepper {
 	right: 40;
 	top: 140;
 	z-index: 100;
+	/* background-color: transparent; */
 }
+/* 
+.popup-overlay::before {
+	content: '';
+	position: fixed;
+	inset: 0;
+	background: rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(2px);
+	z-index: -1;
+} */
 
 .popup {
 	z-index: 100;
@@ -412,10 +423,171 @@ input[type=range]::-webkit-slider-thumb {
 
 /* Media Queries */
 /* Desktop Media Query */
+/* Media Queries */
+/* Desktop Media Query */
 @media(min-width: 1200px) {
+	
+body {
+	margin: 40px 160px;
+}
 
-	body {
-	margin: 100px;
-	}
+h1 {
+	font-size: 100px;
+}
+
+.type {
+	font-size: 144px;
+}
+
+h2 {
+	font-size: 28px;
+}
+
+h3 {
+	font-size: 30px;
+}
+
+h4 {
+	font-size: 36px;
+}
+
+p {
+	font-size: 18px;
+}
+
+label {
+	font-size: 24px;
+}
+
+a {
+	font-size: 24px;
+}
+
+.button {
+	font-size: 22px;
+	margin-top: 60px;
+}
+
+.option-btn {
+	font-size: 22px;
+}
+
+.fixed-bottom {
+	font-size: 18px;
+}
+
+.form-stepper-list {
+	font-size: 24px;
+}
+
+.font-name {
+	font-size: 72px;
+	line-height: 78px;
+}
+
+.bg-picker label,
+	.text-picker label {
+	font-size: 22px;
+}
+
+.color-inputs input[type="text"] {
+	font-size: 17px;
+}
+
+#resetBtn {
+	font-size: 19px;
+}
+
+.nmt-btn {
+	font-size: 18px;
+}
+
+.font-size-slider {
+	font-size: 17px;
+}
+
+.slider-row {
+	font-size: 22px;
+}
+
+.footer {
+	margin-top: 40px;
+}
+
+.popup-overlay {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 40px;
+	background-color: transparent;
+}
+
+.popup {
+	position: relative;
+	max-width: 800px;
+	width: 100%;
+	padding: 60px 100px;
+	margin: 0 auto;
+}
+
+.popup-content {
+	font-size: 20px;
+}
+
+.popup .close {
+	position: absolute;
+	font-size: 28px;
+	top: 20px;
+	right: 20px;
+	cursor: pointer;
+	color: #536bf1;
+}
+
+.dive-btn {
+	margin-top: 20px;
+	font-size: 20px;
+	padding: 16px 28px;
+}
+
+.color-picker {
+	max-width: 60%;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.font-size-slider {
+	width: 100%;
+}
+
+.color-inputs {
+}
+
+.bg-picker,
+.text-picker,
+.font-size-row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 20px;
+}
+
+#resetBtn {
+	width: 400px;
+	margin-top: -10px;
+	margin-bottom: 20px;
+}
+
+#slider {
+	max-width: 100%;
+}
+
+#slider::-webkit-slider-runnable-track {
+	background: #1c1c1c;
+}
+
+#slider {
+	max: 150;
+}
 
 }

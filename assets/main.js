@@ -74,6 +74,19 @@ let renderItems = (data) => {
 			closePopupFunc();
 		}
 	});
+
+	// slider bar responsive
+	function updateSliderMax() {
+		const slider = document.getElementById("slider");
+		if (slider) {
+			slider.max = window.innerWidth >= 1200 ? 150 : 80;
+		}
+	}
+	
+	updateSliderMax();
+	
+	window.addEventListener('resize', updateSliderMax);
+
 	});
 
 	// progress click
@@ -82,6 +95,7 @@ let renderItems = (data) => {
 			const step = parseInt(label.getAttribute('data-step'));
 			navigateToFormStep(step);
 		});
+
 	});
 	
 	
