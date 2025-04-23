@@ -36,7 +36,6 @@ let renderItems = (data) => {
 	});
 };
 
-
 // popup
 	/* I wanted to create Popup Modal */
 	/* I found this tutorial: https://wisepops.com/blog/html-popup */
@@ -100,8 +99,6 @@ let renderItems = (data) => {
 	});
 	
 	
-
-
 // multistep form
 
 	/* I wanted to create Multistep Form Functional */
@@ -392,7 +389,6 @@ let renderItems = (data) => {
 			el.style.lineHeight = defaultFontSize * 1 + "px";
 		});
 	});
-
 
 	// font slider
 
