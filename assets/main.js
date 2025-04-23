@@ -72,6 +72,7 @@ let renderItems = (data) => {
 	function closePopupFunc() {
 		popupOverlay.style.display = 'none';
 	}
+		document.getElementById('diveBtn').addEventListener('click', closePopupFunc);
 	
 	openPopup();
 	

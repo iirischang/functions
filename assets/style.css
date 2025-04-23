@@ -15,15 +15,6 @@ h1 {
 	
 }
 
-/* #flip-word {
-	font-size: 35px;
-	color: #1c1c1c;
-	display: inline-block;
-	animation: fontChange 1.5s infinite;
-} */
-
-
-
 h2 {
 	margin-left: 20px;
 	margin-right: 20px;
@@ -41,9 +32,6 @@ h3 {
 }
 
 h4 {
-	/* margin-left: 20px;
-	margin-right: 20px; */
-	/* margin-top: 15px; */
 	font-size: 30px;
 	text-align: center;
 	padding-bottom: 20px;
@@ -99,6 +87,12 @@ li {
 	margin-right: 5px;
 	background-color: #1c1c1c;
 	color: #c3c3c3;
+}
+
+.dive-btn {
+	padding: 12px 18px;
+	border: 1.5px solid #536bf1;
+	color: #536bf1;
 }
 
 .back-btn {
@@ -341,6 +335,7 @@ ul.font-stepper {
 	top: 10px;
 	right: 13px;
 	cursor: pointer;
+	color: #536bf1;
 }
 
 .color-picker {
