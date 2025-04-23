@@ -82,17 +82,24 @@ li {
 
 .button {
 	font-size: 20px;
-	padding: 19px 40px;
+	padding: 12px 40px;
 	color: #1c1c1c;
-	border-radius: 40px;
 	cursor: pointer;
 	margin-top: 60px;
 	margin-left: 5px;
 	margin-right: 5px;
+	background-color: #1c1c1c;
+	color: #c3c3c3;
+}
+
+.back-btn {
+	background-color: #979797;
+	color: #1c1c1c;
 }
 
 .submit-btn {
 	color: #1c1c1c;
+	background-color: #3e5af5;
 }
 
 .mt-3 {

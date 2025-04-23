@@ -142,7 +142,7 @@ let renderItems = (data) => {
 			// check
 			if (formStepCircle) {
 
-				// mark-as-completed
+			// mark-as-completed
 				formStepCircle.classList.remove("form-stepper-unfinished", "form-stepper-active");
 				formStepCircle.classList.add("form-stepper-completed");
 			}
@@ -151,6 +151,8 @@ let renderItems = (data) => {
 			// hide list at other step
 			if (formSubmitted && stepNumber < 3) {
 				document.getElementById('results-container').style.display = 'none';
+				document.querySelector('#font-list').innerHTML = '';
+				document.querySelector('.fixed-bottom').style.display = 'none';
 			} else if (formSubmitted && stepNumber === 3) {
 				document.getElementById('results-container').style.display = 'block';
 			
