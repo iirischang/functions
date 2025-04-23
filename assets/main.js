@@ -4,16 +4,16 @@ const supportedFonts = [
 	"Barlow", "Karla", "Manrope", "Chivo", "kensington",
 	"pressio", "jali-latin-variable", "itc-avant-garde-gothic", "brisbane", "effra-cc",
 	"venn", "asterisk-sans-variable", "config-variable", "vina-sans", "hatch-sans",
-	"climate-crisis-variable", "cerulya-cf", "kit", "neulis-sans", "Playfair Display",
+	"climate-crisis-variable", "cerulya-cf", "kit-rounded", "neulis-sans", "Playfair Display",
 	"EB Garamond", "Crimson Text", "Gilda Display", "momochidori",
-	"benton-modern-display", "cormorant", "mestiza", "mastro", "anth",
+	"benton-modern-display", "cormorant", "mestiza", "mastro-display", "anth",
 	"maregraphe-variable", "meursault-variable", "the-seasons", "presti-text", "begum",
 	"moret-variable", "lust-didone", "fields-display", "tuppence-variable", "marlide-display-variable",
 	"winsel-variable", "yink", "ivyora-display", "sigurd", "sayer-interview-mn",
 	"new-science", "hepta-slab", "lone-pine", "enra-slab-variable", "clarendon-wide-sketch",
 	"Alfa Slab One", "Shrikhand", "Outfit", "totalblack-variable", "omnes-variable",
 	"Ojuju", "citrine-variable", "scale-variable", "Hanken Grotesk", "fredoka-variable",
-	"amplitude", "filicudi-solid", "area-variable", "reross"
+	"amplitude", "filicudi-solid", "area-variable", "reross-rectangular"
   ];
 
 let renderItems = (data) => {

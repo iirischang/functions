@@ -181,7 +181,7 @@
     "brands": "['Dior', 'MUJI']",
     "usages": "['Packaging', 'Application', 'Magazine', 'Poster']",
     "url": "https://fonts.adobe.com/fonts/kit",
-    "cssName": "kit"
+    "cssName": "kit-rounded"
   },
   {
     "name": "Neulis Sans",
@@ -541,6 +541,6 @@
     "brands": "['IKEA', 'duolingo', 'Google']",
     "usages": "['Website', 'Packaging', 'Application', 'Magazine', 'Poster']",
     "url": "https://fonts.adobe.com/fonts/reross",
-    "cssName": "reross"
+    "cssName": "reross-rectangular"
   }
 ]
