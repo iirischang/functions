@@ -177,14 +177,15 @@ let renderItems = (data) => {
 			formNavigationBtn.addEventListener("click", () => {
 				const stepNumber = parseInt(formNavigationBtn.getAttribute("step_number"));
 
-/* I wanted to have an alert if no answer is select */
-/* I found this question post: https://stackoverflow.com/questions/28394198/how-to-make-function-validation-alert-if-not-selected*/
-/* This script helps me created the alert. */
+// alert
+	/* I wanted to have an alert if no answer is select */
+	/* I found this question post: https://stackoverflow.com/questions/28394198/how-to-make-function-validation-alert-if-not-selected*/
+	/* This script helps me created the alert. */
 
 			let valid = true;
 
 			if (stepNumber === 2 && !document.getElementById("selected-topic").value) {
-				alert("Pick one topic first!");
+				alert("Pick One Topic First!");
 				valid = false;
 			} else if (stepNumber === 3 && !document.getElementById("selected-brand").value) {
 				alert("Pick a Party Parter First!");
@@ -294,13 +295,13 @@ let renderItems = (data) => {
 
 // color picker
 
-/* I wanted to create color pickers when browsing the font list */
-/* I found this tutorial: https://www.youtube.com/watch?v=DP9-CVgkgDA */
-/* This script helps me know how to create a color picker. */
+	/* I wanted to create color pickers when browsing the font list */
+	/* I found this tutorial: https://www.youtube.com/watch?v=DP9-CVgkgDA */
+	/* This script helps me know how to create a color picker. */
 
-/* Moreover, I wanted the color can change when previewing */
-/* I found this tutorial: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/color */
-/* This script helps me make the preview color work. */
+	/* Moreover, I wanted the color can change when previewing */
+	/* I found this tutorial: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/color */
+	/* This script helps me make the preview color work. */
 
 
 	function applyBackgroundColor(color) {
