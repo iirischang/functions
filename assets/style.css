@@ -401,7 +401,11 @@ ul.font-stepper {
 }
 
 #font-list {
-	padding-bottom: 50px;
+	padding-bottom: 30px;
+}
+
+.nmt-btn {
+	font-size: 15px;
 }
 
 /* font slider */
